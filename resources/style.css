@@ -41,33 +41,25 @@
     font-display: swap;
 }
 
-.monospace {
-  font-family: "JetBrainsMono", monospace;
-}
-
-.sansserif {
-  font-family: "SourceSansPro", sans-serif;
-}
-
 body {
 	color: var(--fg);
 	background-color: var(--bg);
 	margin: 0rem auto;
 	max-width: 60rem;
 	padding: 1rem;
-	font: 1rem/1.5rem sans-serif;
+	font: 1rem/1.5rem SourceSansPro;
     fill: var(--fg);
 }
 
 p {
     text-align: justify;
     text-justify: inter-word;
-	font: 500 1rem/1.5rem sans-serif;
+	font: 400 1rem/1.5rem SourceSansPro;
     margin: 1rem 0rem;
 }
 
 a {
-    font: 0.9rem monospace;
+    font: 0.9rem JetBrainsMono;
 	color: var(--fg);
 	background-color: var(--bg);
 }
@@ -84,12 +76,12 @@ ul, ol {
     padding: 0rem;
     text-align: justify;
     text-justify: inter-word;
-    font: 500 1rem/1.5rem sans-serif;
+    font: 400 1rem/1.5rem SourceSansPro;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
-    font-family: monospace;
+    font-family: JetBrainsMono;
     margin: 2rem 0rem 0rem;
 }
 
@@ -125,7 +117,7 @@ header svg:hover {
 
 header h1 {
     color: var(--fg);
-    font: 700 2.0rem monospace;
+    font: 700 2.0rem JetBrainsMono;
     margin: 0rem 0rem 1.5rem;
     padding: 0rem 0rem 0.5rem;
     border-bottom: 2pt solid var(--fg);
@@ -133,7 +125,7 @@ header h1 {
 
 header h2 {
     color: var(--gray4);
-    font: 0.8rem monospace;
+    font: 0.8rem JetBrainsMono;
     margin: 0rem 0rem 0.2rem;
 }
 
@@ -144,7 +136,7 @@ footer {
     border-top: 2pt solid var(--gray4);
     color: var(--gray4);
 	text-align: center;
-	font: 0.8rem/1rem monospace;
+	font: 0.8rem/1rem JetBrainsMono;
 }
 
 footer a {
@@ -160,7 +152,7 @@ code {
     white-space: pre;
     color: var(--gray4);
     background-color: var(--gray2);
-    font: 500 0.9rem monospace;
+    font: 400 0.9rem JetBrainsMono;
     margin: 1rem;
 }
 
@@ -179,14 +171,14 @@ img {
 
 figcaption {
     color: var(--gray4);
-    font: 0.8rem monospace;
+    font: 0.8rem JetBrainsMono;
     padding: 0.8rem;
     text-align: center;
     margin: 0rem;
 }
 
 table {
-    font: 500 0.9em monospace;
+    font: 400 0.9em JetBrainsMono;
     color: var(--gray4);
     background: var(--gray2);
     display: block;
