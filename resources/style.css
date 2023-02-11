@@ -106,8 +106,8 @@ h3 {
 }
 
 header svg {
-	width: 30px;
-	height: 30px;
+	width: 2.5rem;
+	height: 2.5rem;
 	display: block;
 	border: 2pt solid var(--bg);
     margin-bottom: 1.5rem;
