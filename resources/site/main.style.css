@@ -22,21 +22,21 @@
 
 @font-face {
     font-family: 'JetBrainsMono';
-    src: url(./fonts/JetBrainsMono-Medium.woff2) format(woff2);
+    src: url(../fonts/JetBrainsMono-Medium.woff2) format(woff2);
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'SourceSansPro';
-    src: url(./fonts/SourceSansPro-Regular.woff2) format(woff2);
+    src: url(../fonts/SourceSansPro-Regular.woff2) format(woff2);
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'LatinModernMath';
-    src: url(./fonts/latinmodern-math.woff2) format(woff2);
+    src: url(../fonts/latinmodern-math.woff2) format(woff2);
     font-style: normal;
     font-display: swap;
 }
@@ -44,14 +44,14 @@
 body {
 	color: var(--fg);
 	background-color: var(--bg);
-	font: 1rem/1.5rem SourceSansPro;
+	font: 1rem/1.5rem SourceSansPro, sans-serif;
 	max-width: 60rem;
 	padding: 1rem;
 	margin: 0rem auto;
 }
 
 p {
-	font: normal 1rem/1.5rem SourceSansPro;
+	font: normal 1rem/1.5rem SourceSansPro, sans-serif;
     text-align: justify;
     text-justify: inter-word;
     margin: 1rem 0rem;
@@ -60,7 +60,8 @@ p {
 a {
 	color: var(--fg);
 	background-color: var(--bg);
-    font: 0.9rem JetBrainsMono;
+    font: 0.9rem JetBrainsMono, monospace;
+    text-decoration: underline;
 }
 
 a:hover {
@@ -71,7 +72,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
-    font-family: JetBrainsMono;
+    font-family: JetBrainsMono, monospace;
     margin: 2rem 0rem 0rem;
 }
 
@@ -98,14 +99,14 @@ ul, ol {
 code {
     display: inline;
     color: var(--gray4);
-    font: normal 0.9rem JetBrainsMono;
+    font: normal 0.9rem JetBrainsMono, monospace;
 }
 
 pre {
     display: block;
     color: var(--gray4);
     background-color: var(--gray2);
-    font: normal 0.9rem JetBrainsMono;
+    font: normal 0.9rem JetBrainsMono, monospace;
     padding: 1rem 1rem 1.5rem;
     margin: 1rem;
     overflow: auto;
@@ -120,7 +121,7 @@ figure {
 
 figcaption {
     color: var(--gray4);
-    font: normal 0.8rem JetBrainsMono;
+    font: normal 0.8rem JetBrainsMono, monospace;
     text-align: center;
     padding: 0.8rem;
     margin: 0rem;
@@ -137,7 +138,7 @@ table {
     display: table;
     color: var(--gray4);
     background-color: var(--gray2);
-    font: normal 0.9em JetBrainsMono;
+    font: normal 0.9em JetBrainsMono, monospace;
     max-width: 100%;
     padding: 0rem;
     margin: 0rem auto;
@@ -166,7 +167,7 @@ header svg {
 	width: 2.5rem;
 	height: 2.5rem;
 	border: 2pt solid var(--bg);
-    margin: 0em 0em 1rem;
+    margin: 0em 0em 1.5rem;
 }
 
 header svg:hover {
@@ -177,15 +178,18 @@ header svg:hover {
 
 header h1 {
     color: var(--fg);
-    font: bold 2rem JetBrainsMono;
+    font: bold 2rem JetBrainsMono, monospace;
     margin: 0rem 0rem 1.5rem;
     padding: 0rem 0rem 0.5rem;
     border-bottom: 2pt solid var(--fg);
 }
 
 header time {
+    display: block;
     color: var(--gray4);
-    font: normal 0.8rem JetBrainsMono;
+    font: normal 0.8rem JetBrainsMono, monospace;
+    padding: 0rem;
+    margin: 0rem;
 }
 
 header a {
@@ -194,7 +198,7 @@ header a {
 
 footer {
     color: var(--gray4);
-	font: normal 0.8rem JetBrainsMono;
+	font: normal 0.8rem JetBrainsMono, monospace;
 	text-align: center;
     padding: 1rem;
     margin: 2rem 0rem -1rem;
@@ -208,7 +212,7 @@ footer a {
 }
 
 math {
-    font: 1.5rem LatinModernMath;
+    font: 1.5rem LatinModernMath, serif;
     max-width: 95%;
     padding: 1rem;
     margin: 0rem;

@@ -1,0 +1,60 @@
+:root {
+	--fg: #000;
+	--bg: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--fg: #fff;
+		--bg: #111;
+	}
+}
+
+@font-face {
+    font-family: 'JetBrainsMono';
+    src: url(../fonts/JetBrainsMono-Medium.woff2) format(woff2);
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+	color: var(--fg);
+	background-color: var(--bg);
+	font: 1rem JetBrainsMono, monospace;
+	max-width: 60rem;
+	padding: 1rem;
+	margin: 0rem auto;
+}
+
+main svg {
+    display: block;
+    fill: var(--fg);
+    width: 10rem;
+    height: 10rem;
+    margin: 10rem auto 1rem;
+}
+
+a {
+	color: var(--fg);
+	background-color: var(--bg);
+    text-decoration: underline;
+}
+
+a:hover {
+	color: var(--bg);
+	background-color: var(--fg);
+	text-decoration: none;
+}
+
+h2, nav {
+    text-align: center;
+    margin: 0.5rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+nav {
+    font-size: 0.9rem;
+}
