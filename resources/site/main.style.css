@@ -212,6 +212,7 @@ footer a {
 }
 
 math {
+    display: block;
     font: 1.5rem LatinModernMath, serif;
     max-width: 95%;
     padding: 1rem;
