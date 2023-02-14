@@ -1,0 +1,20 @@
+main svg {
+    display: block;
+    fill: var(--fg);
+    width: 10rem;
+    height: 10rem;
+    margin: 10rem auto 1rem;
+}
+
+h2, nav {
+    text-align: center;
+    margin: 0.5rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+nav {
+    font-size: 0.9rem;
+}
