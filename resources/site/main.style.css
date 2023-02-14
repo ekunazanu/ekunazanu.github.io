@@ -34,13 +34,6 @@
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'LatinModernMath';
-    src: url(../fonts/latinmodern-math.woff2) format(woff2);
-    font-style: normal;
-    font-display: swap;
-}
-
 body {
 	color: var(--fg);
 	background-color: var(--bg);
@@ -92,14 +85,31 @@ ul, ol {
     text-align: justify;
     text-justify: inter-word;
     padding: 0rem;
-    margin: 0rem;
+    margin: 0rem 0rem 0rem 1rem;
     list-style-position: inside;
+}
+
+sub, sup {
+    font-size: 0.8rem;
+}
+
+sup a {
+    font: normal 0.8rem JetBrainsMono, monospace;
+}
+
+del {
+    text-decoration: line-through;
 }
 
 code {
     display: inline;
     color: var(--gray4);
+    background-color: var(--gray1);
     font: normal 0.9rem JetBrainsMono, monospace;
+}
+
+pre code {
+    background: none;
 }
 
 pre {
@@ -107,7 +117,7 @@ pre {
     color: var(--gray4);
     background-color: var(--gray2);
     font: normal 0.9rem JetBrainsMono, monospace;
-    padding: 1rem 1rem 1.5rem;
+    padding: 1rem;
     margin: 1rem;
     overflow: auto;
     white-space: pre;
@@ -209,13 +219,4 @@ footer a {
     color: inherit;
     font: inherit;
     text-decoration: inherit;
-}
-
-math {
-    display: block;
-    font: 1.5rem LatinModernMath, serif;
-    max-width: 95%;
-    padding: 1rem;
-    margin: 0rem;
-    overflow: auto;
 }

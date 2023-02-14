@@ -3,4 +3,4 @@ hugo
     update index
 
 content page
-    math
+    math (set pipeline to convert TeX to svg)
