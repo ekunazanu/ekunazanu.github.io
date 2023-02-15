@@ -18,7 +18,7 @@ p a {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
-    margin: 2rem 0rem 0rem;
+    margin: 2rem 0rem 1rem;
 }
 
 h1 {
@@ -33,6 +33,10 @@ h3 {
     font-size: 1.2rem;
 }
 
+h4, h5, h6 {
+    font-size: 1rem;
+}
+
 ul, ol {
     font: 1rem SourceSansPro, sans-serif;
     text-align: justify;
@@ -40,6 +44,10 @@ ul, ol {
     padding: 0rem;
     margin: 0rem 0rem 0rem 0.5rem;
     list-style-position: inside;
+}
+
+ul a, ol a {
+    font: 0.9rem JetBrainsMono, monospace;
 }
 
 sub, sup {
