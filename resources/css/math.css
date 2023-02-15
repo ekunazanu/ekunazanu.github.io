@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'LatinModernMath';
-    src: url(../fonts/latinmodern-math.woff2) format(woff2);
+    src: url(/resources/fonts/latinmodern-math.woff2) format(woff2);
     font-style: normal;
     font-display: swap;
 }
@@ -9,6 +9,7 @@ math {
     display: block;
     font: 1.5rem LatinModernMath, serif;
     max-width: 95%;
+    height: auto;
     padding: 0.3rem;
     margin: 0rem;
     overflow: auto;

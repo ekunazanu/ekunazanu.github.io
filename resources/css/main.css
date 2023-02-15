@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'SourceSansPro';
-    src: url(../fonts/SourceSansPro-Regular.woff2) format(woff2);
+    src: url(/resources/fonts/SourceSansPro-Regular.woff2) format(woff2);
     font-style: normal;
     font-display: swap;
 }
@@ -101,6 +101,7 @@ figure {
 }
 
 figcaption {
+    display: block;
     color: var(--gray4);
     font-size: 0.8rem;
     text-align: center;
@@ -110,8 +111,8 @@ figcaption {
 
 img {
     display: block;
-    height: auto;
     max-width: 100%;
+    height: auto;
     margin: 0rem auto;
 }
 
@@ -120,6 +121,7 @@ table {
     color: var(--gray4);
     background-color: var(--gray2);
     max-width: 100%;
+    height: auto;
     padding: 0rem;
     margin: 0rem auto;
     border: none;
