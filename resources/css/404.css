@@ -3,6 +3,6 @@ svg {
     fill: var(--fg);
     width: 10rem;
     height: 10rem;
-    margin: 4rem auto 2rem;
+    margin: 3rem auto 2rem;
     overflow: hidden;
 }
