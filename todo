@@ -1,8 +1,4 @@
 refactor
-    all css
-    check all fonts, icons, resources etc
-    check all pages in ./extras
-    html templates
     make proper about me page
 
 make proper deploy.sh
@@ -12,3 +8,4 @@ make proper deploy.sh
 ~Later
 pgp key
 deploy with custom domain
+custom email in about section

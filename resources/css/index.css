@@ -5,18 +5,16 @@ ul {
 }
 
 li {
+    font-size: 1rem;
+    font-weight: bold;
     padding: 0rem;
     margin: 1.5rem 0rem;
-}
-
-ul h3 {
-    font: bold 1rem JetBrainsMono, monospace;
-    margin: 0rem;
 }
 
 time {
     display: block;
     color: var(--gray4);
-    font: normal 0.8rem JetBrainsMono, monospace;
+    font-size: 0.8rem;
+    font-weight: normal;
     margin: 0rem;
 }

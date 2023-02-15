@@ -6,3 +6,7 @@ svg {
     margin: 3rem auto 2rem;
     overflow: hidden;
 }
+
+p {
+    text-align: center;
+}

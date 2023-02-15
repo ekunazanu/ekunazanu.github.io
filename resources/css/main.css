@@ -13,16 +13,7 @@ p {
 }
 
 p a {
-    color: var(--fg);
-    background-color: var(--bg);
     font: 0.9rem JetBrainsMono, monospace;
-    text-decoration: underline;
-}
-
-a:hover {
-    color: var(--bg);
-    background-color: var(--fg);
-    text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -43,6 +34,7 @@ h3 {
 }
 
 ul, ol {
+    font: 1rem SourceSansPro, sans-serif;
     text-align: justify;
     text-justify: inter-word;
     padding: 0rem;
@@ -86,7 +78,6 @@ pre code {
 
 pre {
     display: block;
-    color: var(--gray4);
     background-color: var(--gray2);
     padding: 1rem;
     margin: 1rem;
@@ -121,7 +112,6 @@ table {
     color: var(--gray4);
     background-color: var(--gray2);
     max-width: 100%;
-    height: auto;
     padding: 0rem;
     margin: 0rem auto;
     border: none;
@@ -129,7 +119,6 @@ table {
 }
 
 tr, td, th {
-    background-color: var(--gray2);
     text-align: left;
     vertical-align: middle;
     padding: 0.5rem;

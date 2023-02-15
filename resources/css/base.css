@@ -38,7 +38,6 @@ body {
 
 a {
     color: var(--fg);
-    background-color: var(--bg);
     text-decoration: underline;
 }
 
