@@ -32,17 +32,17 @@
 
 <p>Paragraph with a <a href="linkaddress">link</a></p>
 
-<p><figure>
+<figure>
 <picture>
 <source srcset="https://cdn.pixabay.com/photo/2021/12/29/08/18/insect-6900940_960_720.jpg" media="(prefers-color-scheme: dark)" alt="picture description">
 <img src="https://cdn.pixabay.com/photo/2022/11/03/03/05/apples-7566512_960_720.jpg" alt="picture description" loading="lazy" decoding="async">
 </picture>
 <figcaption>Picture caption</figcaption>
-</figure></p>
+</figure>
 
 <h3>Header3</h3>
 
-<p>Another paragraph with cosmetic differences like <em>italics</em>, <strong>bold</strong> or <em>underline</em>; or structural importance like <em>emphasis</em> or <strong>strong emphasis</strong>. <code>monospaced string or inline code.</code></p>
+<p>Another paragraph with cosmetic differences like <em>italics</em>, <strong>bold</strong> or <em>underline</em>; or structural importance like <em>emphasis</em> or <strong>strong emphasis</strong>. <code>monospaced string or inline code.</code> <del>Strikethrough</del> is supported though.</p>
 
 <pre><code>code block
 with just
@@ -53,12 +53,9 @@ text
 
 <p>Testing some math functions</p>
 
-<p><math>
+<math>
     <mrow> <mi>x</mi> <mo>=</mo> <mfrac> <mrow> <mrow> <mo>-</mo> <mi>b</mi> </mrow> <mo>&PlusMinus;</mo> <msqrt> <mrow> <msup> <mi>b</mi> <mn>2</mn> </msup> <mo>-</mo> <mrow> <mn>4</mn> <mo>&InvisibleTimes;</mo> <mi>a</mi> <mo>&InvisibleTimes;</mo> <mi>c</mi> </mrow> </mrow> </msqrt> </mrow> <mrow> <mn>2</mn> <mo>&InvisibleTimes;</mo> <mi>a</mi> </mrow> </mfrac> </mrow>
 </math>
-</p>
-
-<h3>Another header 3</h3>
 
 <p>Another one, just in case.</p>
 
@@ -135,6 +132,13 @@ text
 
 <p>Text with sub<sub>script</sub> and super<sup>script</sup> texts.<sup>[<a href="link">Footnote</a>]</sup></p>
 
+<blockquote>
+<p>Blockquote about something something somthing</p>
+<blockquote>
+<p>Which is nested</p>
+</blockquote>
+</blockquote>
+
 <p>An unordered list:</p>
 
 <ul>
@@ -146,7 +150,6 @@ text
 </ul>
 </ul>
 </ul>
-
 
 <p>And an ordered list:</p>
 
