@@ -93,6 +93,14 @@ pre {
     white-space: pre;
 }
 
+blockquote {
+    color: var(--gray4);
+    display: block;
+    padding: 0.3rem 1rem;
+    margin: 0rem 1rem;
+    border-left: 5pt solid var(--gray4);
+}
+
 figure {
     display: block;
     max-width: 95%;

@@ -5,6 +5,11 @@
     font-display: swap;
 }
 
+.mathin {
+    display: inline;
+    font: 1.2rem LatinModernMath, serif;
+}
+
 math {
     display: block;
     font: 1.5rem LatinModernMath, serif;
