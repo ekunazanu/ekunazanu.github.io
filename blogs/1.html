@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fourier Tranforms</title>
+    <link rel="icon" href="/resources/icons/67.16px.svg">
+    <link rel="stylesheet" href="/resources/css/base.css">
+    <link rel="stylesheet" href="/resources/css/banner.css">
+    <link rel="stylesheet" href="/resources/css/main.css">
+    <link rel="stylesheet" href="/resources/css/math.css">
+</head>
+
+<body>
+    <header>
+        <a href="/">
+        <svg viewBox="0 0 5 5">
+        <path id="rect6" d="M 0 0 L 0 5 L 3 5 L 3 2 L 1 2 L 1 0 z M 1 3 L 2 3 L 2 4 L 1 4 L 1 3 z"/>
+        <path id="rect7" d="M 2 0 L 2 1 L 4 1 L 4 5 L 5 5 L 5 0 L 2 0 z"/>
+        </svg>
+        </a>
+        <time>2023-02-16</time>
+        <h1>Fourier Tranforms</h1>
+    </header>
+
+<main>
+<article>
+
+<h2>Time vs Frequency Graphs</h2>
+
+<figure>
+    <picture><source srcset="1.timevfreq.dark.png" media="(prefers-color-scheme: dark)" alt="time vs freq"> <img src="1.timevfreq.light.png" alt="time vs freq" loading="lazy" decoding="async"></picture>
+    <figcaption>
+        Time vs Frequency domain graphs
+    </figcaption>
+</figure>
+
+<p>Imagine you are given a function <span class="mathin">y = f(x)</span>. Now what if I asked you to to represent this function as a sum of sine waves? Seems tricky, if not impossible at first. It might look daunting from afar, but the underlying principle behind Fourier transforms is actually relatively simple and really elegant.</p>
+
+<h3>Use Cases</h3>
+
+<ul>
+    <li>Sound Processing</li>
+</ul>
+
+<h2>Euler's Formula</h2>
+
+<h3>The complex plane</h3>
+
+<p>for any number, <span class="mathin">n<sup>i</sup></span> results in a comlex number.</p>
+
+<h3>Euler's Identity</h3>
+
+<p>Now, for <span class="mathin">e<sup>iπ</sup> = -1</span></p>
+
+<p><math>testing</math>
+</p>
+
+<p>I won't pretend to know why it's true, but I am pretty sure it has to do something with calculus. I never paid attention in calc classes, although I might come back later to explain why it happens once I myself have a solid understanding of this phenomena. But for now, take it as a given, and assume e^πi = -1.</p>
+
+<p>Since the complex coordinates now have a frequency of 2π, this means we know have a unit circle, which means we can represent the coordinates in polar form: cosQ, isinQ. Where cosQ represents the x coordinates and isinQ represents the y coordinates.</p>
+
+<h2>Why not just use sin and cos?</h2>
+
+<p>We can! We just represent it using i</p>
+<!--
+## Header2
+Paragraph with a [link](linkaddress)
+
+<figure>
+<picture>
+<source srcset="img.dark.png" media="(prefers-color-scheme: dark)" alt="desc">
+<img src="img.light.png" alt="desc" loading="lazy" decoding="async">
+</picture>
+<figcaption>Figure caption</figcaption>
+</figure>
+
+### Header3
+Another paragraph with cosmetic differences like <i>italics</i>, <b>bold</b>; or structural importance like *emphasis* or **strong emphasis**. <code>monospaced string or inline code.</code>. Underline is not supported and discouraged, to reduce confusion with links. ~~Strikethrough~~ is supported though.
+
+```
+code block
+with just
+    some lines
+    of
+text
+```
+
+Another paragraph and a table below:
+
+<figure>
+<div style="overflow: auto;">
+<table>
+    <thead>
+        <tr>
+            <th>Row/col header</th>
+            <th>Row header</th>
+            <th colspan="2">Row header spanning 2 cols</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <th>Row/col footer</th>
+            <th>Row footer</th>
+            <th>Row footer</th>
+            <th>Row footer</th>
+        </tr>
+        </tfoot>
+    <tbody>
+        <tr>
+            <th>Col header</th>
+            <td>cell</td>
+            <td>cell</td>
+            <td>cell</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Col header spanning 2 rows</th>
+            <td>cell</td>
+            <td>cell</td>
+            <td>cell</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td> &lt;- empty cell</td>
+            <td>cell</td>
+        </tr>
+        <tr>
+            <th>Col header</th>
+            <td>cell</td>
+            <td rowspan="2" colspan="2">Cell spanning two rows and cols</td>
+        </tr>
+        <tr>
+            <th>Col header</th>
+            <td>cell</td>
+        </tr>
+        <tr>
+            <th>Col header</th>
+            <td>cell</td>
+            <td>cell</td>
+            <td>cell</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<figcaption>Table caption</figcaption>
+</figure>
+
+## Header2
+
+Text with sub<sub>script</sub> and super<sup>script</sup> texts.<sup>[[Footnote](link)]</sup>
+
+> Blockquote
+> > Which is nested
+
+An unordered list:
+
+* Something.
+    * Something more.
+        * Something even more.
+
+And an ordered list:
+
+1. Somthing else.
+2. This too.
+3. This three.
+-->
+
+</article>
+</main>
+
+<footer>
+    &copy; 2023-<script>document.write(new Date().getFullYear())</script> Anchit Roy &middot;
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>
+</footer>
+</body>
+</html>
+
+<!-- Published under the MIT License -->
+<!-- https://opensource.org/licenses/MIT -->
