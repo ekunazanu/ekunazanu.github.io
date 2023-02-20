@@ -22,4 +22,4 @@ sed -e "29r ./blogs/$1.html.tmp" -e "29,160d" -e "s/{date}/$date/" -e "s/{title}
 
 rm "./blogs/$1.html.tmp" && echo "Removed $1.html.tmp"
 
-sed -i "28i <li>\n    <time>$date</time>\n    <a href=\"./blogs/$1.html\">$title</a>\n</li>" "./extras/index.html" && echo "Appended to index.html"
+sed -i "28i <li>\n    <time>$date</time>\n    <a href=\"/blogs/$1.html\">$title</a>\n</li>" "./extras/index.html" && echo "Appended to index.html"

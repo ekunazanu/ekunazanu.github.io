@@ -1,20 +1,24 @@
-main svg {
-    display: block;
-    fill: var(--fg);
-    width: 10rem;
-    height: 10rem;
-    margin: 10rem auto 1rem;
-}
-
-h2, nav {
+h1, nav {
     text-align: center;
     margin: 0.5rem;
 }
 
-h2 {
-    font-size: 1rem;
+h1 {
+    font-size: 1.5rem;
 }
 
 nav {
     font-size: 0.9rem;
+}
+
+main svg {
+    display: block;
+    fill: var(--fg);
+    width: 12rem;
+    height: 10rem;
+    margin: 10rem auto 1rem;
+}
+
+#rectN {
+    fill: var(--gray4);
 }

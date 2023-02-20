@@ -1,8 +1,8 @@
 header svg {
     display: block;
     fill: var(--fg);
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 3.5rem;
+    height: 3rem;
     margin: 0em 0em 1.5rem;
     border: 2pt solid var(--bg);
 }
@@ -21,7 +21,7 @@ header h1 {
     border-bottom: 2pt solid var(--fg);
 }
 
-header time, header h2 {
+header h2 {
     display: block;
     color: var(--gray4);
     font-size: 0.8rem;

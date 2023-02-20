@@ -1,3 +1,7 @@
+- [ ] redesign
+- [ ] use links relative to root
+- [ ] check all pages in icons, then fonts, then css and extras, then blog
+
 ### Later
 - [ ] pgp key
 - [ ] deploy with custom domain
@@ -5,5 +9,6 @@
 - [ ] refactor deploy
     - [ ] optional math.css flag
     - [ ] optional index.html flag
-- [ ] implement math properly, instead of using hacks
+- [ ] implement math the correct way, instead of using hacks
+    - [ ] rebuild old pages with proper math funcs
 - [ ] refactor

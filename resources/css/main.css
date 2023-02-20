@@ -2,7 +2,7 @@
     font-family: 'SourceSansPro';
     src: url(/resources/fonts/SourceSansPro-Regular.woff2) format(woff2);
     font-style: normal;
-    font-display: block;
+    font-display: swap;
 }
 
 p {
