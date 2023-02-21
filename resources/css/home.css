@@ -22,3 +22,13 @@ main svg {
 #rectN {
     fill: var(--gray4);
 }
+
+#eyes {
+    animation: blink-anim 5s step-start 0s infinite;
+}
+
+@keyframes blink-anim {
+    98% {
+        visibility: hidden;
+    }
+}

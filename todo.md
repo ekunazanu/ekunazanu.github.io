@@ -1,6 +1,7 @@
 - [ ] redesign
 - [ ] use links relative to root
 - [ ] check all pages in icons, then fonts, then css and extras, then blog
+- [ ] use jekyll/hugo instead
 
 ### Later
 - [ ] pgp key

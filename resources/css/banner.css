@@ -1,7 +1,7 @@
 header svg {
     display: block;
     fill: var(--fg);
-    width: 3.5rem;
+    width: 2.5rem;
     height: 3rem;
     margin: 0em 0em 1.5rem;
     border: 2pt solid var(--bg);

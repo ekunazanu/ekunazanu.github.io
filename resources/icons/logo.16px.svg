@@ -13,14 +13,13 @@
     stroke-width="0"
     fill="#000000"/>
 <path
-    id="pacman"
-    d="M 1 2 L 1 14 L 11 14 L 11 12 L 3 12 L 3 10 L 11 10 L 11 2 Z M 3 4 L 3 8 L 9 8 L 9 4 Z M 5 4 L 5 8 L 7 8 L 7 4 Z"
+    id="rectE"
+    d="M 3 2 L 3 8 L 5 8 L 5 4 L 7 4 L 7 8 L 9 8 L 9 4 L 11 4 L 11 8 L 13 8 L 13 2 Z"
     stroke-width="0"
-    fill-rule="evenodd"
     fill="#ffffff"/>
 <path
-    id="dot"
-    d="M 13 10 L 13 12 L 15 12 L 15 10 Z"
+    id="rectN"
+    d="M 3 8 L 3 14 L 13 14 L 13 12 L 5 12 L 5 10 L 13 10 L 13 8 Z"
     stroke-width="0"
     fill="#ffffff"/>
 </svg>
