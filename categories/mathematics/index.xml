@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathematics on ekunazanu</title>
+    <link>http://ekunazanu.dev/categories/mathematics/</link>
+    <description>Recent content in Mathematics on ekunazanu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-in</language>
+    <lastBuildDate>Wed, 22 Feb 2023 03:21:57 +0530</lastBuildDate><atom:link href="http://ekunazanu.dev/categories/mathematics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Discrete Fourier Transform</title>
+      <link>http://ekunazanu.dev/blog/discrete-fourier-transform/</link>
+      <pubDate>Wed, 22 Feb 2023 03:21:57 +0530</pubDate>
+      
+      <guid>http://ekunazanu.dev/blog/discrete-fourier-transform/</guid>
+      <description> Note This article assumes you have a basic understanding of Fourier Transforms. Sampling Shannon-Nyquist Theorem N sample &amp;gt; 2f or f &amp;lt; N/2
+Matrix Multiplication </description>
+    </item>
+    
+    <item>
+      <title>Fourier Transform</title>
+      <link>http://ekunazanu.dev/blog/fourier-transform/</link>
+      <pubDate>Wed, 22 Feb 2023 00:01:03 +0530</pubDate>
+      
+      <guid>http://ekunazanu.dev/blog/fourier-transform/</guid>
+      <description>Imagine you are given a function $y = f(x)$. Now what if I asked you to to represent this function as a sum of sine waves? Seems tricky, if not impossible at first. It might look daunting from afar, but the underlying principle behind Fourier transforms is actually relatively simple and really elegant.
+Time v Frequency A time domain vs a frequency domain graph of the same signal Use Cases Sound Processing Euler&amp;rsquo;s Formula The complex plane for any number, $x^{yi}$ results in a comlex number $a + bi$.</description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>http://ekunazanu.dev/blog/testtemplate/</link>
+      <pubDate>Sat, 22 Feb 2020 00:01:05 +0530</pubDate>
+      
+      <guid>http://ekunazanu.dev/blog/testtemplate/</guid>
+      <description>Hidden note This is an example collapsed note Open note This is an example open note Paragraph with inline math $f(x) = x^{2}$ $y_t = beta_0 + theta_1 x_t + epsilon_t$ $$e\equiv \lim_{n\to\infty} \biggl( 1 + \frac{1}{n} \biggr)^n = 2.71828$$
+Header2 Paragraph with a link
+Some caption Header3 Another paragraph with emphasis or strong emphasis. monospaced string or inline code. Underline is not supported and discouraged, to reduce confusion with links.</description>
+    </item>
+    
+  </channel>
+</rss>
