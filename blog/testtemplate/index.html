@@ -2,10 +2,36 @@
 <html lang="en">
 <head>
     <title>Test</title>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="/icons/logo.16px.svg">
-    <link rel="stylesheet" href="/css/base.css"><link rel="stylesheet" href="/css/banner.css"><link rel="stylesheet" href="/css/main.css"><link rel="stylesheet" href="/css/math.css">
+    <meta name="description" content="This is a test page not meant for publication">
+    <meta name="author" content="Anchit Roy">
+    <link rel="canonical" href="https://ekunazanu.dev/blog/testtemplate/">
+    <link rel="icon" href="https://ekunazanu.dev/icons/logo.16px.svg">
+    <link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/css/banner.css">
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          fleqn: true,
+          
+          throwOnError : false
+        });
+    });
+</script>
 
 </head>
 <body>
@@ -31,14 +57,8 @@ This is an example collapsed note
 This is an example open note
 </details>
 
-<p>Paragraph with inline math <p>Imagine you are given a function <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></math> or <math xmlns="&quot;http://www.w3.org/1998/Math/MathML&quot;"><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy="&quot;false&quot;">(</mo><mi>x</mi><mo>+</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><mo stretchy="&quot;false&quot;">)</mo></math><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo>+</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><mo stretchy="false">)</mo></math>. Now what if I asked you to to represent this function as a sum of sine waves? Seems tricky, if not impossible at first. It might look daunting from afar, but the underlying principle behind Fourier transforms is actually relatively simple and really elegant.</p>
-
-<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi><mo>≡</mo><munder><mo movablelimits="true" form="prefix">lim</mo><mrow class="MJX-TeXAtom-ORD"><mi>n</mi><mo stretchy="false">→</mo><mi mathvariant="normal">∞</mi></mrow></munder><mrow class="MJX-TeXAtom-OPEN"><mo maxsize="2.047em" minsize="2.047em">(</mo></mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><msup><mrow class="MJX-TeXAtom-CLOSE"><mo maxsize="2.047em" minsize="2.047em">)</mo></mrow><mi>n</mi></msup><mo>=</mo><mn>2.71828</mn></math>
-
-<p>Imagine you are given a function <span class="MathJax_Preview" style="color: inherit; display: none;"></span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></math> or <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo>+</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><mo stretchy="false">)</mo></math>. Now what if I asked you to to represent this function as a sum of sine waves? Seems tricky, if not impossible at first. It might look daunting from afar, but the underlying principle behind Fourier transforms is actually relatively simple and really elegant.</p>
-
-<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi><mo>≡</mo><munder><mo movablelimits="true" form="prefix">lim</mo><mrow class="MJX-TeXAtom-ORD"><mi>n</mi><mo stretchy="false">→</mo><mi mathvariant="normal">∞</mi></mrow></munder><mrow class="MJX-TeXAtom-OPEN"><mo maxsize="2.047em" minsize="2.047em">(</mo></mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><msup><mrow class="MJX-TeXAtom-CLOSE"><mo maxsize="2.047em" minsize="2.047em">)</mo></mrow><mi>n</mi></msup><mo>=</mo><mn>2.71828</mn></math>
-
+<p>Paragraph with inline math $f(x) = x^{2}$ $y_t = \beta_0 + \theta_1 x_t + \epsilon_t$
+$$and\ block\ math, e\equiv \lim_{n\to\infty} \left( 1 + \frac{1}{n}\right)^n = 2.71828$$</p>
 <h2 id="header2">Header2</h2>
 <p>Paragraph with a <a href="linkaddress">link</a></p>
 <figure>
@@ -56,7 +76,82 @@ with just
     some lines
     of
 text
-</code></pre><p>Another paragraph and a table below:</p>
+that is very longgggggggggggggggggggggggggggggggggggggggggggggggg
+</code></pre><figure>
+    <picture>
+        
+        <img src="/media/test.webp" alt="dragon" loading="lazy" decoding="async">
+    </picture>
+    <figcaption>test</figcaption>
+</figure>
+
+<p>Another paragraph and a table below:</p>
+<figure>
+    <div style="overflow: auto;">
+    <table>
+        
+  <tr>
+    <th>Partitions</th>
+	<th>Windows Readable Partition</th>
+	<th colspan="2"><b>LUKS Container</th>
+	<th>BIOS Grub Partition</th>
+	<th>UEFI Boot Partition</th>
+  </tr>
+  <tr>
+    <th>gdisk hex</th>
+	<td>0700</td>
+	<td colspan="2">8300</td>
+	<td>ef02</td>
+	<td>ef00</td>
+  </tr>
+    <tr>
+    <th rowspan="2">Block Device</td>
+	<td>/dev/sdx1</td>
+	<td colspan="2">/dev/sdx2</td>
+	<td>/dev/sdx3</td>
+	<td>/dev/sdx4</td>
+  </tr>
+    <tr>
+	<td></td>
+    <td>/dev/VolumeGroup/root</td>
+	<td>/dev/VolumeGroup/home</td>
+	<td colspan="2"></td>
+  </tr>
+    <tr>
+    <th>File System</th>
+	<td>FAT32/NTFS</td>
+	<td>ext4</td>
+	<td>ext4</td>
+	<td>Unformatted</td>
+	<td>FAT32</td>
+  </tr>
+    <tr>
+    <th><b>Mountpoint</th>
+	<td>Not Mounted</td>
+	<td>/</td>
+	<td>/home</td>
+	<td>Not Mounted</td>
+	<td>/boot</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Size</b></th>
+	<td rowspan="2">As required</td>
+	<td>At least 8GiB</td>
+	<td>As required</td>
+	<td rowspan="2">2MiB</td>
+	<td rowspan="2">200MiB</td>
+  </tr>
+  <tr>
+    <td colspan="2">(LUKS Container must accomodate size of both Logical volumes)</td>
+  </tr>
+
+
+    </table>
+    </div>
+    
+</figure>
+
+<p>Another paragraph</p>
 <figure>
     <div style="overflow: auto;">
     <table>
@@ -122,6 +217,10 @@ text
  texts.<sup>[<a href="link">Some journal</a>]</sup>
 </p>
 <blockquote>
+<p>Sinlequote</p>
+</blockquote>
+<p>something</p>
+<blockquote>
 <p>Blockquote</p>
 <blockquote>
 <p>Which is nested</p>
@@ -150,11 +249,12 @@ text
 <nav>
 This article is about
 <a href="/categories/mathematics/">Mathematics</a>
-<a href="/categories/computer-science/">Computer Science</a><br>
+<a href="/categories/computer-science/">Computer Science</a>
+<a href="/categories/geometry/">Geometry</a><br>
 Browse all <a href="/categories">categories</a>
 </nav>
 <footer>
-    &copy; 2023-<script>document.write(new Date().getFullYear())</script> <a href="/about">Anchit Roy</a> &middot;
+    &copy; 2023 <a href="/about">Anchit Roy</a> &middot;
     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>
 </footer>
 </body>

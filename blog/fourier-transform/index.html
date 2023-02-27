@@ -2,11 +2,17 @@
 <html lang="en">
 <head>
     <title>Fourier Transform</title>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="/icons/logo.16px.svg">
-    <link rel="stylesheet" href="/css/base.css"><link rel="stylesheet" href="/css/banner.css"><link rel="stylesheet" href="/css/main.css"><link rel="stylesheet" href="/css/math.css">
+    <meta name="description" content="Explaining how the Fourier Transform converts a time domain signals to a frequency domain signals">
+    <meta name="author" content="Anchit Roy">
+    <link rel="canonical" href="https://ekunazanu.dev/blog/fourier-transform/">
+    <link rel="icon" href="https://ekunazanu.dev/icons/logo.16px.svg">
+    <link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/css/banner.css">
+<link rel="stylesheet" href="/css/main.css">
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
 <script>
@@ -20,7 +26,7 @@
               {left: '\\(', right: '\\)', display: false},
               {left: '\\[', right: '\\]', display: true}
           ],
-          output: "mathml",
+          fleqn: true,
           
           throwOnError : false
         });
@@ -41,11 +47,16 @@
 </header>
 <main>
 <article>
+<details open>
+    <summary>Note</summary>
+This article assumes you have an understanding of Complex Numbers and <a href="/blog/eulers-identity">Euler&rsquo;s Identity</a>.
+</details>
+
 <p>Imagine you are given a function $y = f(x)$. Now what if I asked you to to represent this function as a sum of sine waves? Seems tricky, if not impossible at first. It might look daunting from afar, but the underlying principle behind Fourier transforms is actually relatively simple and really elegant.</p>
-<h2 id="time-v-frequency">Time v Frequency</h2>
+<h2 id="time-vs-frequency">Time vs Frequency</h2>
 <figure>
     <picture>
-        <source srcset="" media="(prefers-color-scheme: dark)" alt="time v frequency graph">
+        
         <img src="" alt="time v frequency graph" loading="lazy" decoding="async">
     </picture>
     <figcaption>A time domain vs a frequency domain graph of the same signal</figcaption>
@@ -62,9 +73,11 @@
 <h3 id="eulers-identity">Euler&rsquo;s Identity</h3>
 <p>Now, for $e^{i\pi} = -1$</p>
 <p>testing</p>
-<p>I won&rsquo;t pretend to know why it&rsquo;s true, but I am pretty sure it has $$e \equiv \lim_{n\to\infty} \biggl( 1 + \frac{1}{n} \biggr)^n = 2.71828$$ to do something with calculus. I never paid attention in calc classes, although I might come back later to explain why it happens once I myself have a solid understanding of this phenomena. But for now, take it as a given, and assume e^πi = -1.</p>
-<p>Since the complex coordinates now have a frequency of 2π, this means we know have a unit circle, which means we can represent the coordinates in polar form: cosQ, isinQ. Where cosQ represents the x coordinates and isinQ represents the y coordinates.</p>
-<h2 id="alternatives">ALternatives</h2>
+<p>I won&rsquo;t pretend to know why it&rsquo;s true, but I am pretty sure it has to do something with calculus. I never paid attention in calc classes, although I might come back later to explain why it happens once I myself have a solid understanding of this phenomena. But for now, take it as a given, and assume $e^{i\pi} = -1$.</p>
+<p>Since the complex coordinates now have a frequency of $2\pi$, this means we know have a unit circle, which means we can represent the coordinates in polar form $\cos(\theta), i\sin(\theta)$. Where $\cos(\theta)$ represents the $x$ coordinate and $i\sin(\theta)$ represents the $y$ coordinate.</p>
+<p>Thus, we end up with</p>
+<p>$$X(f)\ \triangleq \ \int _{-\infty }^{\infty }x(t)\ e^{-i2\pi ft}\ {\rm {d}}t$$</p>
+<h2 id="alternatives">Alternatives</h2>
 <p>Why not just use the unit circle and use sin and cos then? We can! We can also use plain vectors to represent the unit circle. We just represent it using.</p>
 </article>
 </main>
@@ -75,7 +88,7 @@ This article is about
 Browse all <a href="/categories">categories</a>
 </nav>
 <footer>
-    &copy; 2023-<script>document.write(new Date().getFullYear())</script> <a href="/about">Anchit Roy</a> &middot;
+    &copy; 2023 <a href="/about">Anchit Roy</a> &middot;
     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>
 </footer>
 </body>
