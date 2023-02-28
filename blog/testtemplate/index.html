@@ -12,6 +12,8 @@
 <link rel="stylesheet" href="/css/banner.css">
 <link rel="stylesheet" href="/css/main.css">
 
+<link rel="stylesheet" href="/css/syntaxhighlight.css">
+
 <link rel="stylesheet" href="/css/math.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
@@ -152,8 +154,53 @@ that is very longgggggggggggggggggggggggggggggggggggggggggggggggg
     
 </figure>
 
-<p>Another paragraph</p>
-<figure>
+<p>Also testing syntax highlight:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">float</span> <span class="n">num1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">float</span> <span class="n">num2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nf">scanf</span><span class="p">(</span><span class="s">&#34;%f, %f&#34;</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">num1</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">num2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">num1</span> <span class="o">&gt;</span> <span class="n">num2</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">        <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;</span><span class="se">\033</span><span class="s">[31;1;4mThe first number is greater</span><span class="se">\033</span><span class="s">[0m&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">num2</span> <span class="o">&gt;</span> <span class="n">num1</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">        <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;</span><span class="se">\033</span><span class="s">[32;1;4mThe second number is greater</span><span class="se">\033</span><span class="s">[0m&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;</span><span class="se">\033</span><span class="s">[34;1;4mBoth are equal</span><span class="se">\033</span><span class="s">[0m&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Some other code too</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="ch">#!/usr/bin/env python3</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">fractions</span> <span class="kn">import</span> <span class="n">Fraction</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">solution</span><span class="p">(</span><span class="n">pegs</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">altDistanceSum</span> <span class="o">=</span> <span class="o">-</span><span class="n">pegs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">pegs</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">):</span>
+</span></span><span class="line hl"><span class="cl">        <span class="k">if</span> <span class="n">i</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">altDistanceSum</span> <span class="o">-=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">pegs</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">altDistanceSum</span> <span class="o">+=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">pegs</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">pegs</span><span class="p">)</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">altDistanceSum</span> <span class="o">+=</span> <span class="n">pegs</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">pegs</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="n">r0</span> <span class="o">=</span> <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="nb">float</span><span class="p">(</span><span class="n">altDistanceSum</span><span class="p">))</span><span class="o">/</span><span class="mi">3</span>
+</span></span><span class="line hl"><span class="cl">    <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line hl"><span class="cl">        <span class="n">altDistanceSum</span> <span class="o">-=</span> <span class="n">pegs</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">pegs</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span>
+</span></span><span class="line hl"><span class="cl">        <span class="n">r0</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="nb">float</span><span class="p">(</span><span class="n">altDistanceSum</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">r</span> <span class="o">=</span> <span class="n">r0</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">pegs</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">r</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">r</span> <span class="o">=</span> <span class="p">(</span><span class="n">pegs</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">pegs</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="o">-</span> <span class="n">r</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">r0</span> <span class="o">=</span> <span class="n">Fraction</span><span class="p">(</span><span class="n">r0</span><span class="p">)</span><span class="o">.</span><span class="n">limit_denominator</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="p">[</span><span class="n">r0</span><span class="o">.</span><span class="n">numerator</span><span class="p">,</span> <span class="n">r0</span><span class="o">.</span><span class="n">denominator</span><span class="p">]</span>
+</span></span></code></pre></div><figure>
     <div style="overflow: auto;">
     <table>
         
@@ -215,8 +262,7 @@ that is very longgggggggggggggggggggggggggggggggggggggggggggggggg
 <h2 id="header2-1">Header2</h2>
 <p>Text with sub<sub>script</sub>
  and super<sup>script</sup>
- texts.<sup>[<a href="link">Some journal</a>]</sup>
-</p>
+ texts <sup><a href="link">Some journal</a></sup>. Another paragraph with a footnote <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. And another one <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. Also, a third one <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.</p>
 <blockquote>
 <p>Sinlequote</p>
 </blockquote>
@@ -231,7 +277,7 @@ that is very longgggggggggggggggggggggggggggggggggggggggggggggggg
 <ul>
 <li>Something
 <ul>
-<li>Something more
+<li>Something more <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>
 <ul>
 <li>Something even more</li>
 </ul>
@@ -245,6 +291,27 @@ that is very longgggggggggggggggggggggggggggggggggggggggggggggggg
 <li>This too</li>
 <li>This three <a href="/">testlink</a></li>
 </ol>
+<p>Some random words <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>. And some other random words, to pad out this paragraph. It&rsquo;s not enough text so adding more here. I guess this is enough. Okay it&rsquo;s not, so here I am adding more. It&rsquo;s repetitive, but it is what is is. Okay maybe this is enough. Yeah it is. And then something here to end the article.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Test footnote&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Another test&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Third one with a <a href="link">link</a> to something&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Fourth time&rsquo;s the charm&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>Fifth one, just in case&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 </article>
 </main>
 <nav>
