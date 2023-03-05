@@ -20,9 +20,7 @@ header h1 span {
     font-size: 2rem;
     line-height: 1.5em;
     text-transform: uppercase;
-    padding: 0rem 0.5rem;
-    box-decoration-break: clone;
-    -webkit-box-decoration-break: clone;
+    padding: 0rem;
 }
 
 header h1 {

@@ -49,7 +49,7 @@
 <main>
 <article>
 <p>If you have ever enrolled in any of the STEM disciplines, chances are you would&rsquo;ve come across any of Euler&rsquo;s Formula. Now there&rsquo;s a lot of genius things he came up with, but one of the most well known (and also one of the most elegant) has to be the Euler&rsquo;s Identity $e^{i\pi} = -1$. From quantum physics to signal processing, it comes up very frequently in a lot of areas may not even necessarily be directly under the mathematical domain. Now, even if you&rsquo;ve never come across this expression, or even know what any of it means, I&rsquo;ll dissect every term and try to explain why it is the way it is and what it represents, using regular high school math.</p>
-<h2><span>Imaginary Numbers</span></h2>
+<h2 id="imaginary-numbers"><a href="#imaginary-numbers">Imaginary Numbers</a></h2>
 <p>First, let&rsquo;s evaluate the expression $e^{i\pi} = -1$. Here we have the terms $e$, $i$, $\pi$, which then simplifies to $-1$. We&rsquo;ll come back to $e$ later, but for now let&rsquo;s focus on the letter $i$. I&rsquo;ll assume you have never heard of imaginary numbers, and try to build an intuition, as to why why these numbers can help us represent a two dimensional plane.</p>
 <p>Take the expression $x^{2} = -1$. Assuming you are familiar with integer multiplication, it would seems non-sensical at first, as to, how in the world can we multiply two same numbers with the same signs to get a negative value. And in fact, there is no such real number that multiplies to $-1$. So now what do we do? We make up a new number $n$ and define it such that $n \times n = -1$, and let&rsquo;s call the imaginary number $i$, since it doesn&rsquo;t exist, at least among the real numbers. So we end up with $i \times i = -1$. You may now say, &ldquo;Hey that&rsquo;s cheating! You can just make stuff up and then say, that&rsquo;s the soultion.&rdquo; But in mathematics as long as your definition is consistent with the internal rules, logic and structure of its environmental system, it is a valid theory (but that doesn&rsquo;t mean you can make up your own definitions and expect that to be the standard; it also has to be adopted by the wider population). And in fact, in math, redefining functions so that they are applicable more generally is not uncommon (we&rsquo;ll discuss more about that later).</p>
 <details >
@@ -57,9 +57,9 @@
 When I say imaginary numbers do not exist, what I am trying to say is they do not exist in the real number line. Imaginary numbers are very much real, and are used extensively in quantum physics, our most accurate theory of reality so far.
 </details>
 
-<h3><span>Operations on Imaginary Numbers</span></h3>
+<h3 id="operations-on-imaginary-numbers"><a href="#operations-on-imaginary-numbers">Operations on Imaginary Numbers</a></h3>
 <p>How do we now fit these imaginary numbers we just created with the existing system of real numbers? We know that $i \times i = -1$, what about $i + i$? What about $5 + i$? Or $5 \times i$?</p>
-<h4><span>Addition</span></h4>
+<h4 id="addition"><a href="#addition">Addition</a></h4>
 <p>We will try addition operations with real and imaginary numbers before we move onto with multiplication. Let&rsquo;s try adding $1 + i$, which translate to $1 + 1\sqrt{-1}$. Imaginary numbers are defined such that they cannot be added to real numbers, in that sense we can&rsquo;t add $1$ and $1i$ to get $2$ or $2i$. This restriction might seem arbritary, but I promise you it would make more sense when we talk about the complex plane and rotations. Let&rsquo;s take the original expression $1 + i$. We cannot simplify it further, and we end up the same expression $1 + i$. Let&rsquo;s try another one with more terms in it: $3 + i + 23 + i + i -20 -i$. Here again, we cannot add real numbers to imaginary numbers. Taking this restriction into account, we end up with:</p>
 <p>$$
 = 3 + i + 23 + i + i -20 - i \\
@@ -67,7 +67,7 @@ When I say imaginary numbers do not exist, what I am trying to say is they do no
 = 6 + 2i \\
 $$</p>
 <p>We can take more examples, but you can see from this that any real numbers and imaginary numbers can be represented using the form $a + bi$. Another important thing you can notice is that we can represent the the magnitude of the imaginary compenent using real numbers. That is, while $bi$ is an imaginary number, $b$ itself is a real number. $a$ is already a real number. This form $a + bi$, represent a set of real numbers and imaginary numbers, and we call this collective set complex numbers. From the above example, we can also deduce that addition of complex numbers is commutative.</p>
-<h4><span>Multiplication</span></h4>
+<h4 id="multiplication"><a href="#multiplication">Multiplication</a></h4>
 <p>Now, let&rsquo;s try multiplying real and imaginary numbers. Luckily, there&rsquo;s no restrictions in the definitions of imaginary numbers that prevent us from multiplying real number with imaginary numbers. So taking $i = \sqrt{-1}$, we can write $5 \times \sqrt{-1}$ as $5\sqrt{-1}$, or $5 \times i = 5i$. Also muplitplying imaginary numbers by imaginary numbers, should result in us getting a negative product, by the very definition of imaginary numbers. Assuming, imaginary number multiplication operations are commutative, we can separate the imaginary number $i$, and its real component:</p>
 <p>$$
 4i \times 2i \\
@@ -86,7 +86,7 @@ $$</p>
 = -12 + 15i + 8i +10 \\
 = -2 + 23i
 $$</p>
-<h2><span>The Complex Plane</span></h2>
+<h2 id="the-complex-plane"><a href="#the-complex-plane">The Complex Plane</a></h2>
 <p>Once you are comfortable with the idea of adding and multiplying numbers by $i$ or $\sqrt{-1}$, we can move onto recognizing some patterns and quirks of imaginary numbers.</p>
 <p>If we take any complex number, and multiply it by $i$, something interesting happens:
 $$
@@ -100,7 +100,7 @@ $$
 $$</p>
 <p>If we multiply the result, we end up with $-a - bi$. Multiplying it again leaves us with $b - ai$. Doing it again gives us back our orginal number $a+ bi$.</p>
 <p>If you observe carefully, the pattern here is obvious. Every time we multiply the complex number by $i$, the real components and imaginary components switch places, and the real component changes its sign. It happens because of the very way $i$ is defined. What is less obvious, is why exactly it&rsquo;s important. It doesn&rsquo;t seem very useful to us algebraically, but if we start thinking about it geometrically, it becomes <em>very</em> interesting very quickly.</p>
-<h3><span>Complex Rotations</span></h3>
+<h3 id="complex-rotations"><a href="#complex-rotations">Complex Rotations</a></h3>
 <p>Take a point $(a, b)$ and plot it on the cartesian plane. Now rotate the point 90°, 180° and 270° counter-clockwise with respect to the origin.</p>
 <figure>
     <picture>
@@ -110,9 +110,9 @@ $$</p>
     <figcaption>Point at (2, -5): Rotated 90°, 180° and 270°</figcaption>
 </figure>
 
-<p>Notice, the coordinates of the 90° rotated point is $(-b, a)$, the coordinates for the 180° rotated point is $(-a, -b)$ and the one for the 270° is $(b, -a)$. It is strikingly similar to the pattern we observed earlier before when we multiplied any complex number by $i$. In fact, if we take the real component and the imaginary component of the complex number on different axes which are mutually perpendicular to each other, we have a very elegant system of describing a two dimensional plane where 90° rotation transforms can be described by a single multiplication operation with the imaginary number $i$. So that&rsquo;s what we do. We define our imaginary numbers on an axis that is perpendicular to the real number line, where the imaginary numbers are represented using the vertical axis, and the real numbers are represented using horizontal axis. This is how we end up with the complex plane, where multiplying any complex number by $i$ has the effect of rotating that point counter clockwise by 90°.</p>
+<p>Notice, the coordinates of the 90° rotated point is $(-b, a)$, the coordinates for the 180° rotated point is $(-a, -b)$ and the one for the 270° is $(b, -a)$. It is strikingly similar to the pattern we observed earlier before when we multiplied any complex number by $i$. In fact, if we take the real and imaginary component of a complex number on different axes which are mutually perpendicular to each other, we have a very elegant system of describing a two dimensional plane where 90° rotation transforms can be described by a single multiplication operation with the imaginary number $i$. So that&rsquo;s what we do. We define our imaginary numbers on an axis that is perpendicular to the real number line, where the imaginary numbers are represented on the vertical axis, and the real numbers are represented on horizontal axis. This is how we end up with the complex plane, where multiplying any complex number by $i$ has the effect of rotating that point counter clockwise by 90°.</p>
 <p>You might think, &ldquo;Why go through so much trouble defining new things just to be able to represent a 90° rotation transform?&rdquo;. And it&rsquo;s a fair question. The answer is because we can expand this transform beyond just right angles.</p>
-<h4><span>A Different Perspecitve</span></h4>
+<h4 id="a-different-perspecitve"><a href="#a-different-perspecitve">A Different Perspecitve</a></h4>
 <p>There is another way to look at how multiplying by $i$ rotates the complex point by 90°. I would go on to argue this approach can be generalized and is much more intuitive to understand complex number rotations geometrically. Notice what happens when we multiply a complex number by $-1$. Take an example, $(2 + 5i) \cdot (-1) = (-2 - 5i)$.</p>
 <figure>
     <picture>
@@ -203,13 +203,21 @@ $$</p>
     <figcaption>Getting to i in 3 steps</figcaption>
 </figure>
 
-<p>Solving for $(a + bi) = -1^{3}$, we get $\sqrt[3]{-1} = \left( \frac{1}{2} + \frac{\sqrt{3}}{2} i \right)$. We, of course, also get $(-1 + 0i)$ as a solution, but we&rsquo;ll ignore that since it doesnt help us to represent 60° rotations. But if you are curious as to how the solution $-1$ would map out geometrically, think of it as rotating the plane thrice by 180°. First, we multiply by $-1$ to rotate it 180°, and then multiply it again by $-1$ (which is the same as multiplying by $1$), we rotate a total of 360° and get back the same position. We multiply a final third time to again end up at the 180° rotated position. $(-1 + 0i)$ is indeed a valid solution, but it&rsquo;s not important for us. Similarly, for $i$ we get $\sqrt[3]{i} = \left( \frac{\sqrt{3}}{2} + \frac{1}{2} i \right)$.</p>
-<p>If further analyze the pattern for the above values, we can see that the complex number multipliers that correspond to a pure rotation, all lie on the unit circle. That is they all the complex numbers are of the form ($\cos{\theta} + i\sin{\theta})$ for some angle $\theta$. The rotation complex number multiplier i.e. $i$, $\sqrt{i}$, etc <em>has</em> to lie on the unit circle, because otherwise we would not be just peforming a pure rotation, but also be scaling the plane. Using the same logic, multiplying a complex number by a real number just scales it, without performing any rotation.</p>
-<p>Thus, we can say multiplying any complex number with another complex number <em>(with a negative real component <strong>or</strong> non-zero imaginary component)</em> rotates the plane by a certain amount. The angle of rotation is determined by the ratio of the real and imaginary component.</p>
-<h2><span>Euler&rsquo;s Number</span></h2>
-<h3><span>Exponential Function</span></h3>
+<p>Solving for $(a + bi) = -1^{3}$, we get $\sqrt[3]{-1} = \left( \frac{1}{2} + \frac{\sqrt{3}}{2} i \right)$. We, of course, also get $(-1 + 0i)$ as a solution, but we&rsquo;ll ignore that since it doesnt help us to represent 60° rotations. But if you are curious as to how the solution $-1$ would map out geometrically, think of it as rotating the plane thrice by 180°. First, we multiply by $-1$ to rotate it 180°, and then multiply it again by $-1$ (which is the same as multiplying by $1$), we rotate a total of 360° and get back the same position. We multiply a final third time to again end up at the 180° rotated position. $(-1 + 0i)$ is indeed a valid solution, but it&rsquo;s not important for us. We just take the solution $\left( \frac{1}{2} + \frac{\sqrt{3}}{2} i \right)$ for our case. Similarly, for $i$ we get $\sqrt[3]{i} = \left( \frac{\sqrt{3}}{2} + \frac{1}{2} i \right)$.</p>
+<p>If further analyze the pattern for the above values, we can see that the complex number multipliers that correspond to a pure rotation, all lie on the unit circle. That is they all the complex numbers are of the form ($\cos{\theta} + i\sin{\theta})$ for some angle $\theta$. The rotation complex number multiplier i.e. $i$, $\sqrt{i}$, etc <em>has</em> to lie on the unit circle, because otherwise we would not be just peforming a pure rotation, but also be scaling the plane. Using the same logic, multiplying a complex number by a positive real number just scales it, without performing any rotation.</p>
+<figure>
+    <picture>
+        
+        <img src=".png" alt="all points lie on the unit circle" loading="lazy" decoding="async">
+    </picture>
+    <figcaption>All points lie on the unit circle</figcaption>
+</figure>
+
+<p>Thus, we can say multiplying any complex number with another complex number <em>(with a negative real component <strong>or</strong> non-zero imaginary component)</em> rotates the plane by a certain amount. The angle of rotation is determined by the ratio of the real and imaginary component. To be precise, $\theta = \tan^{-1} \left( \frac{b}{a} \right)$ for a complex number $(a + bi)$</p>
+<h2 id="eulers-number"><a href="#eulers-number">Euler&rsquo;s Number</a></h2>
+<h3 id="exponential-function"><a href="#exponential-function">Exponential Function</a></h3>
 <p>Redefining the exponential function</p>
-<h2><span>Putting the Pieces Together</span></h2>
+<h2 id="putting-the-pieces-together"><a href="#putting-the-pieces-together">Putting the Pieces Together</a></h2>
 <p>Since the velocity vector always matches the multiplication rotation vector i, since derivative of $e^{i} = i \cdot e^{i}$. Therefore, you are going around a circle of radius 1 unit at the speed equal to 1 unit per unit. So after $\pi$ units, you arrive at position vector $(-1, 0)$ . So, $e^{i\pi} = - 1$.</p>
 <p>I want to make it clear that $a^{i \cdot t}$ would still trace out a unit circle for a real number $a$, but $t$ would not map to the distance walked on the circle, and instead it would represent $\ln e something$</p>
 </article>
