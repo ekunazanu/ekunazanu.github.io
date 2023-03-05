@@ -7,7 +7,7 @@
     <meta name="description" content="This is a test page not meant for publication">
     <meta name="author" content="Anchit Roy">
     <link rel="canonical" href="https://ekunazanu.dev/blog/testtemplate/">
-    <link rel="icon" href="https://ekunazanu.dev/icons/logo.16px.svg">
+    <link rel="icon" href="/icons/logo.16px.png">
     <link rel="stylesheet" href="/css/base.css">
 <link rel="stylesheet" href="/css/banner.css">
 <link rel="stylesheet" href="/css/main.css">
@@ -46,7 +46,7 @@
     </svg>
     </a>
     <h2><time>2020-02-22</time></h2>
-    <h1>Test</h1>
+    <h1><span>Test</span></h1>
 </header>
 <main>
 <article>
@@ -62,7 +62,7 @@ This is an example open note
 
 <p>Paragraph with inline math $f(x) = x^{2}$ $y_t = \beta_0 + \theta_1 x_t + \epsilon_t$
 $$and\ block\ math, e\equiv \lim_{n\to\infty} \left( 1 + \frac{1}{n}\right)^n = 2.71828$$</p>
-<h2 id="header2">Header2</h2>
+<h2><span>Header2</span></h2>
 <p>Paragraph with a <a href="linkaddress">link</a></p>
 <figure>
     <picture>
@@ -72,7 +72,7 @@ $$and\ block\ math, e\equiv \lim_{n\to\infty} \left( 1 + \frac{1}{n}\right)^n = 
     <figcaption>Some caption</figcaption>
 </figure>
 
-<h3 id="header3">Header3</h3>
+<h3><span>Header3</span></h3>
 <p>Another paragraph with <em>emphasis</em> or <strong>strong emphasis</strong>. <code>monospaced string or inline code</code>. Underline is not supported and discouraged, to reduce confusion with links. <del>Strikethrough</del> is supported though.</p>
 <pre tabindex="0"><code>code block
 with just
@@ -180,16 +180,16 @@ that is very longgggggggggggggggggggggggggggggggggggggggggggggggg
 </span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">solution</span><span class="p">(</span><span class="n">pegs</span><span class="p">):</span>
 </span></span><span class="line"><span class="cl">    <span class="n">altDistanceSum</span> <span class="o">=</span> <span class="o">-</span><span class="n">pegs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">pegs</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">):</span>
-</span></span><span class="line hl"><span class="cl">        <span class="k">if</span> <span class="n">i</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">i</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">            <span class="n">altDistanceSum</span> <span class="o">-=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">pegs</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">        <span class="k">else</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">            <span class="n">altDistanceSum</span> <span class="o">+=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">pegs</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">pegs</span><span class="p">)</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">        <span class="n">altDistanceSum</span> <span class="o">+=</span> <span class="n">pegs</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">pegs</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">        <span class="n">r0</span> <span class="o">=</span> <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="nb">float</span><span class="p">(</span><span class="n">altDistanceSum</span><span class="p">))</span><span class="o">/</span><span class="mi">3</span>
-</span></span><span class="line hl"><span class="cl">    <span class="k">else</span><span class="p">:</span>
-</span></span><span class="line hl"><span class="cl">        <span class="n">altDistanceSum</span> <span class="o">-=</span> <span class="n">pegs</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">pegs</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span>
-</span></span><span class="line hl"><span class="cl">        <span class="n">r0</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="nb">float</span><span class="p">(</span><span class="n">altDistanceSum</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">altDistanceSum</span> <span class="o">-=</span> <span class="n">pegs</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">pegs</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="n">r0</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="nb">float</span><span class="p">(</span><span class="n">altDistanceSum</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="n">r</span> <span class="o">=</span> <span class="n">r0</span>
 </span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">pegs</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">):</span>
@@ -259,7 +259,7 @@ that is very longgggggggggggggggggggggggggggggggggggggggggggggggg
     <figcaption>Table caption</figcaption>
 </figure>
 
-<h2 id="header2-1">Header2</h2>
+<h2><span>Header2</span></h2>
 <p>Text with sub<sub>script</sub>
  and super<sup>script</sup>
  texts <sup><a href="link">Some journal</a></sup>. Another paragraph with a footnote <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. And another one <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. Also, a third one <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.</p>
@@ -317,8 +317,7 @@ that is very longgggggggggggggggggggggggggggggggggggggggggggggggg
 <nav>
 This article is about
 <a href="/categories/mathematics/">Mathematics</a>
-<a href="/categories/computer-science/">Computer Science</a>
-<a href="/categories/geometry/">Geometry</a><br>
+<a href="/categories/computer-science/">Computer Science</a><br>
 Browse all <a href="/categories">categories</a>
 </nav>
 <footer>

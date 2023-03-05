@@ -7,5 +7,121 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-in</language>
     <lastBuildDate>Wed, 22 Feb 2023 00:10:23 +0530</lastBuildDate><atom:link href="https://ekunazanu.dev/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The p-value</title>
+      <link>https://ekunazanu.dev/blog/p-value/</link>
+      <pubDate>Wed, 01 Mar 2023 12:48:27 +0530</pubDate>
+      
+      <guid>https://ekunazanu.dev/blog/p-value/</guid>
+      <description>Biases </description>
+    </item>
+    
+    <item>
+      <title>Quaternions vs Vectors</title>
+      <link>https://ekunazanu.dev/blog/quaternions-vs-vectors/</link>
+      <pubDate>Wed, 01 Mar 2023 00:36:22 +0530</pubDate>
+      
+      <guid>https://ekunazanu.dev/blog/quaternions-vs-vectors/</guid>
+      <description>Citation 1
+https://www.3dgep.com/understanding-quaternions/&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+    </item>
+    
+    <item>
+      <title>Getting Started With Julia</title>
+      <link>https://ekunazanu.dev/blog/getting-started-with-julia/</link>
+      <pubDate>Wed, 22 Feb 2023 04:04:41 +0530</pubDate>
+      
+      <guid>https://ekunazanu.dev/blog/getting-started-with-julia/</guid>
+      <description>I&amp;rsquo;ve always been a huge fan of maps, even more so if it manages to elegeantly present meaningful data in a very clean and uncomplicated way.</description>
+    </item>
+    
+    <item>
+      <title>Shor&#39;s Algorithm, Part II</title>
+      <link>https://ekunazanu.dev/blog/shors-algorithm-2/</link>
+      <pubDate>Wed, 22 Feb 2023 03:36:10 +0530</pubDate>
+      
+      <guid>https://ekunazanu.dev/blog/shors-algorithm-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shor&#39;s Algorithm, Part I</title>
+      <link>https://ekunazanu.dev/blog/shors-algorithm-1/</link>
+      <pubDate>Wed, 22 Feb 2023 03:22:39 +0530</pubDate>
+      
+      <guid>https://ekunazanu.dev/blog/shors-algorithm-1/</guid>
+      <description>Number Theory </description>
+    </item>
+    
+    <item>
+      <title>Splines</title>
+      <link>https://ekunazanu.dev/blog/splines/</link>
+      <pubDate>Wed, 22 Feb 2023 03:22:30 +0530</pubDate>
+      
+      <guid>https://ekunazanu.dev/blog/splines/</guid>
+      <description>While making the logo for this site
+Interpolation </description>
+    </item>
+    
+    <item>
+      <title>Public Key Cryptography</title>
+      <link>https://ekunazanu.dev/blog/public-key-cryptography/</link>
+      <pubDate>Wed, 22 Feb 2023 03:22:19 +0530</pubDate>
+      
+      <guid>https://ekunazanu.dev/blog/public-key-cryptography/</guid>
+      <description>P vs NP In computer science, any algorithm that solves a problem</description>
+    </item>
+    
+    <item>
+      <title>Fast Fourier Transform</title>
+      <link>https://ekunazanu.dev/blog/fast-fourier-transform/</link>
+      <pubDate>Wed, 22 Feb 2023 03:22:02 +0530</pubDate>
+      
+      <guid>https://ekunazanu.dev/blog/fast-fourier-transform/</guid>
+      <description>Note This article assumes you have a basic understanding of Fourier Transforms and Discrete Fourier Transforms. While Dicrete Fourier transforms
+Including Efficiency In computer science, we use a term called Time Complexity to represent how an algorithm scales, with regards to the time needed to perform the computation, with respect to the size of the given input data. By removing the redundant calculations in FFT, we reduce the number of operations need to perform from the square of the number of the inputs to just .</description>
+    </item>
+    
+    <item>
+      <title>Discrete Fourier Transform</title>
+      <link>https://ekunazanu.dev/blog/discrete-fourier-transform/</link>
+      <pubDate>Wed, 22 Feb 2023 03:21:23 +0530</pubDate>
+      
+      <guid>https://ekunazanu.dev/blog/discrete-fourier-transform/</guid>
+      <description> Note This article assumes you have a basic understanding of Fourier Transforms. Sampling Shannon-Nyquist Theorem The Shannon-Nyquist Theorem states that $N &amp;gt; 2f$ or $f &amp;lt; N/2$
+Matrix Multiplication $$ \begin{bmatrix} x_0 &amp;amp; x_1 &amp;amp; x_2 &amp;amp; x_3 &amp;amp; x_4 &amp;amp; x_5 &amp;amp; x_6 &amp;amp; x_7 \end{bmatrix} $$
+The DFT Matrix </description>
+    </item>
+    
+    <item>
+      <title>Fourier Transform</title>
+      <link>https://ekunazanu.dev/blog/fourier-transform/</link>
+      <pubDate>Wed, 22 Feb 2023 00:01:03 +0530</pubDate>
+      
+      <guid>https://ekunazanu.dev/blog/fourier-transform/</guid>
+      <description>Note This article assumes you have an understanding of Complex Numbers and Euler&amp;rsquo;s Identity. Imagine you are given a function $y = f(x)$. Now what if I asked you to to represent this function as a sum of sine waves? Seems tricky, if not impossible at first. It might look daunting from afar, but the underlying principle behind Fourier transforms is actually relatively simple and really elegant.
+Time vs Frequency A time domain vs a frequency domain graph of the same signal Use Cases Sound Processing Euler&amp;rsquo;s Formula The complex plane for any number, $x^{yi}$ results in a comlex number $a + bi$.</description>
+    </item>
+    
+    <item>
+      <title>Euler&#39;s Identity</title>
+      <link>https://ekunazanu.dev/blog/eulers-identity/</link>
+      <pubDate>Wed, 22 Feb 2023 00:00:35 +0530</pubDate>
+      
+      <guid>https://ekunazanu.dev/blog/eulers-identity/</guid>
+      <description>If you have ever enrolled in any of the STEM disciplines, chances are you would&amp;rsquo;ve come across any of Euler&amp;rsquo;s Formula. Now there&amp;rsquo;s a lot of genius things he came up with, but one of the most well known (and also one of the most elegant) has to be the Euler&amp;rsquo;s Identity $e^{i\pi} = -1$. From quantum physics to signal processing, it comes up very frequently in a lot of areas may not even necessarily be directly under the mathematical domain.</description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://ekunazanu.dev/blog/testtemplate/</link>
+      <pubDate>Sat, 22 Feb 2020 00:01:05 +0530</pubDate>
+      
+      <guid>https://ekunazanu.dev/blog/testtemplate/</guid>
+      <description>Hidden note This is an example collapsed note Open note This is an example open note Paragraph with inline math $f(x) = x^{2}$ $y_t = \beta_0 + \theta_1 x_t + \epsilon_t$ $$and\ block\ math, e\equiv \lim_{n\to\infty} \left( 1 + \frac{1}{n}\right)^n = 2.71828$$
+Header2 Paragraph with a link
+Some caption Header3 Another paragraph with emphasis or strong emphasis. monospaced string or inline code. Underline is not supported and discouraged, to reduce confusion with links.</description>
+    </item>
+    
   </channel>
 </rss>
