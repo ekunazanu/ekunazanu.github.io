@@ -78,7 +78,7 @@ Interpolation </description>
       <pubDate>Wed, 22 Feb 2023 03:22:02 +0530</pubDate>
       
       <guid>https://ekunazanu.dev/blog/fast-fourier-transform/</guid>
-      <description>Note This article assumes you have a basic understanding of Fourier Transforms and Discrete Fourier Transforms. While Dicrete Fourier transforms
+      <description>Note This article assumes you have a basic understanding of the Discrete Fourier Transform. While Dicrete Fourier transforms
 Including Efficiency In computer science, we use a term called Time Complexity to represent how an algorithm scales, with regards to the time needed to perform the computation, with respect to the size of the given input data. By removing the redundant calculations in FFT, we reduce the number of operations need to perform from the square of the number of the inputs to just .</description>
     </item>
     
@@ -88,7 +88,7 @@ Including Efficiency In computer science, we use a term called Time Complexity t
       <pubDate>Wed, 22 Feb 2023 03:21:23 +0530</pubDate>
       
       <guid>https://ekunazanu.dev/blog/discrete-fourier-transform/</guid>
-      <description> Note This article assumes you have a basic understanding of Fourier Transforms. Sampling Shannon-Nyquist Theorem The Shannon-Nyquist Theorem states that $N &amp;gt; 2f$ or $f &amp;lt; N/2$
+      <description> Note This article assumes you have a basic understanding of the Fourier Transform. Sampling Shannon-Nyquist Theorem The Shannon-Nyquist Theorem states that $N &amp;gt; 2f$ or $f &amp;lt; N/2$
 Matrix Multiplication $$ \begin{bmatrix} x_0 &amp;amp; x_1 &amp;amp; x_2 &amp;amp; x_3 &amp;amp; x_4 &amp;amp; x_5 &amp;amp; x_6 &amp;amp; x_7 \end{bmatrix} $$
 The DFT Matrix </description>
     </item>
@@ -99,7 +99,7 @@ The DFT Matrix </description>
       <pubDate>Wed, 22 Feb 2023 00:01:03 +0530</pubDate>
       
       <guid>https://ekunazanu.dev/blog/fourier-transform/</guid>
-      <description>Note This article assumes you have an understanding of Complex Numbers and Euler&amp;rsquo;s Identity. Imagine you are given a function $y = f(x)$. Now what if I asked you to to represent this function as a sum of sine waves? Seems tricky, if not impossible at first. It might look daunting from afar, but the underlying principle behind Fourier transforms is actually relatively simple and really elegant.
+      <description>Note This article assumes you have a basic understanding of the Euler&amp;rsquo;s Formula. Imagine you are given a function $y = f(x)$. Now what if I asked you to to represent this function as a sum of sine waves? Seems tricky, if not impossible at first. It might look daunting from afar, but the underlying principle behind Fourier transforms is actually relatively simple and really elegant.
 Time vs Frequency A time domain vs a frequency domain graph of the same signal Use Cases Sound Processing Euler&amp;rsquo;s Formula The complex plane for any number, $x^{yi}$ results in a comlex number $a + bi$.</description>
     </item>
     
@@ -109,7 +109,7 @@ Time vs Frequency A time domain vs a frequency domain graph of the same signal U
       <pubDate>Wed, 22 Feb 2023 00:00:35 +0530</pubDate>
       
       <guid>https://ekunazanu.dev/blog/eulers-identity/</guid>
-      <description>If you have ever enrolled in any of the STEM disciplines, chances are you would&amp;rsquo;ve come across Euler. Now there&amp;rsquo;s a lot of genius things he came up with, but one of the most well known (and also one of the most elegant) has to be the Euler&amp;rsquo;s Identity, $e^{i\pi} = -1$. From quantum physics to signal processing, it comes up very frequently in areas that may not even necessarily be directly under the mathematical domain.</description>
+      <description>If you have ever enrolled in any of the STEM disciplines, chances are you would&amp;rsquo;ve come across Euler. Now there&amp;rsquo;s a lot of genius things he came up with, but one of the most well known (and also one of the most elegant) has to be the Euler&amp;rsquo;s Identity, $e^{i\pi} + 1 = 0$. From quantum physics to signal processing, it comes up very frequently in areas that may not even necessarily be directly under the mathematical domain.</description>
     </item>
     
     <item>
