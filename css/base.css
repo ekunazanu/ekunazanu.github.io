@@ -50,6 +50,6 @@ a:hover {
 }
 
 ::selection {
-    color: var(--bg);
-    background: var(--fg);
+    color: var(--fg);
+    background: var(--gray2);
 }
