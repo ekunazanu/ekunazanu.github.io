@@ -13,7 +13,7 @@
       <pubDate>Wed, 01 Mar 2023 12:48:27 +0530</pubDate>
       
       <guid>https://ekunazanu.dev/blog/p-value/</guid>
-      <description>Biases </description>
+      <description>Biases↰ </description>
     </item>
     
     <item>
@@ -50,7 +50,7 @@ https://www.3dgep.com/understanding-quaternions/&amp;#160;&amp;#x21a9;&amp;#xfe0
       <pubDate>Wed, 22 Feb 2023 03:22:39 +0530</pubDate>
       
       <guid>https://ekunazanu.dev/blog/shors-algorithm-1/</guid>
-      <description>Number Theory </description>
+      <description>Number Theory↰ </description>
     </item>
     
     <item>
@@ -60,7 +60,7 @@ https://www.3dgep.com/understanding-quaternions/&amp;#160;&amp;#x21a9;&amp;#xfe0
       
       <guid>https://ekunazanu.dev/blog/splines/</guid>
       <description>While making the logo for this site
-Interpolation </description>
+Interpolation↰ </description>
     </item>
     
     <item>
@@ -69,7 +69,7 @@ Interpolation </description>
       <pubDate>Wed, 22 Feb 2023 03:22:19 +0530</pubDate>
       
       <guid>https://ekunazanu.dev/blog/public-key-cryptography/</guid>
-      <description>P vs NP In computer science, any algorithm that solves a problem</description>
+      <description>P vs NP↰ In computer science, any algorithm that solves a problem</description>
     </item>
     
     <item>
@@ -79,7 +79,7 @@ Interpolation </description>
       
       <guid>https://ekunazanu.dev/blog/fast-fourier-transform/</guid>
       <description>Note This article assumes you have a basic understanding of the Discrete Fourier Transform. While Dicrete Fourier transforms
-Including Efficiency In computer science, we use a term called Time Complexity to represent how an algorithm scales, with regards to the time needed to perform the computation, with respect to the size of the given input data. By removing the redundant calculations in FFT, we reduce the number of operations need to perform from the square of the number of the inputs to just .</description>
+Including↰ Efficiency↰ In computer science, we use a term called Time Complexity to represent how an algorithm scales, with regards to the time needed to perform the computation, with respect to the size of the given input data. By removing the redundant calculations in FFT, we reduce the number of operations need to perform from the square of the number of the inputs to just .</description>
     </item>
     
     <item>
@@ -88,9 +88,9 @@ Including Efficiency In computer science, we use a term called Time Complexity t
       <pubDate>Wed, 22 Feb 2023 03:21:23 +0530</pubDate>
       
       <guid>https://ekunazanu.dev/blog/discrete-fourier-transform/</guid>
-      <description> Note This article assumes you have a basic understanding of the Fourier Transform. Sampling Shannon-Nyquist Theorem The Shannon-Nyquist Theorem states that $N &amp;gt; 2f$ or $f &amp;lt; N/2$
-Matrix Multiplication $$ \begin{bmatrix} x_0 &amp;amp; x_1 &amp;amp; x_2 &amp;amp; x_3 &amp;amp; x_4 &amp;amp; x_5 &amp;amp; x_6 &amp;amp; x_7 \end{bmatrix} $$
-The DFT Matrix </description>
+      <description> Note This article assumes you have a basic understanding of the Fourier Transform. Sampling↰ Shannon-Nyquist Theorem↰ The Shannon-Nyquist Theorem states that $N &amp;gt; 2f$ or $f &amp;lt; N/2$
+Matrix Multiplication↰ $$ \begin{bmatrix} x_0 &amp;amp; x_1 &amp;amp; x_2 &amp;amp; x_3 &amp;amp; x_4 &amp;amp; x_5 &amp;amp; x_6 &amp;amp; x_7 \end{bmatrix} $$
+The DFT Matrix↰ </description>
     </item>
     
     <item>
@@ -100,7 +100,7 @@ The DFT Matrix </description>
       
       <guid>https://ekunazanu.dev/about/</guid>
       <description>Hi! I am Anchit. I am a first year computer science undergraduate student currently studying at Manipal Institute of Technology, Bengaluru. I like math, statistics, and progressive rock. I am still relatively new to programming, and only have basic knowledge of python, but I am looking forward to learning C and start with competetitve programming in the coming months.
-Blog Lately, I have been reading Simon Ser&amp;rsquo;s blogs, after I went down a rabbit hole of Wayland development.</description>
+Blog↰ Lately, I have been reading Simon Ser&amp;rsquo;s blogs, after I went down a rabbit hole of Wayland development.</description>
     </item>
     
     <item>
@@ -110,7 +110,7 @@ Blog Lately, I have been reading Simon Ser&amp;rsquo;s blogs, after I went down 
       
       <guid>https://ekunazanu.dev/blog/fourier-transform/</guid>
       <description>Note This article assumes you have a basic understanding of the Euler&amp;rsquo;s Formula. Imagine you are given a function $y = f(x)$. Now what if I asked you to to represent this function as a sum of sine waves? Seems tricky, if not impossible at first. It might look daunting from afar, but the underlying principle behind Fourier transforms is actually relatively simple and really elegant.
-Time vs Frequency A time domain vs a frequency domain graph of the same signal Use Cases Sound Processing Euler&amp;rsquo;s Formula The complex plane for any number, $x^{yi}$ results in a comlex number $a + bi$.</description>
+Time vs Frequency↰ A time domain vs a frequency domain graph of the same signal Use Cases↰ Sound Processing Euler&amp;rsquo;s Formula↰ The complex plane↰ for any number, $x^{yi}$ results in a comlex number $a + bi$.</description>
     </item>
     
     <item>
@@ -129,8 +129,8 @@ Time vs Frequency A time domain vs a frequency domain graph of the same signal U
       
       <guid>https://ekunazanu.dev/blog/testtemplate/</guid>
       <description>Hidden note This is an example collapsed note Open note This is an example open note Paragraph with inline math $f(x) = x^{2}$ $y_t = \beta_0 + \theta_1 x_t + \epsilon_t$ $$and\ block\ math, e\equiv \lim_{n\to\infty} \left( 1 + \frac{1}{n}\right)^n = 2.71828$$
-Header2 Paragraph with a link
-Some caption Header3 Another paragraph with emphasis or strong emphasis. monospaced string or inline code. Underline is not supported and discouraged, to reduce confusion with links.</description>
+Header2↰ Paragraph with a link
+Some caption Header3↰ Another paragraph with emphasis or strong emphasis. monospaced string or inline code. Underline is not supported and discouraged, to reduce confusion with links.</description>
     </item>
     
   </channel>

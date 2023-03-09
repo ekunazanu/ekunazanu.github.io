@@ -21,18 +21,22 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0.2em 0rem;
     margin: 2rem 0rem 1rem;
     border-bottom: 2pt solid var(--gray2);
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     display: inline;
-    font-weight: bold;
-    text-transform: uppercase;
+    visibility: hidden;
+    vertical-align: top;
+    font-size: 1rem;
+    padding: 0rem 0.2rem;
+    margin: 0rem 0.3rem;
     text-decoration: none;
 }
 
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
-    color: inherit;
-    background-color: inherit;
+h1:hover a, h2:hover a, h3:hover a, h4:hover a, h5:hover a, h6:hover a {
+    visibility: visible;
 }
 
 h1 {
