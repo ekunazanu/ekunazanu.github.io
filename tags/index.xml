@@ -8,6 +8,6 @@
     <language>en-in</language>
     <managingEditor>me@ekunazanu.dev (Anchit Roy)</managingEditor>
     <webMaster>me@ekunazanu.dev (Anchit Roy)</webMaster>
-    <copyright>Creative Commons Attribution-ShareAlike 4.0 International License</copyright><atom:link href="https://ekunazanu.dev/tags/index.xml" rel="self" type="application/xml" />
+    <copyright>Creative Commons Attribution-ShareAlike 4.0 International License</copyright><atom:link href="https://ekunazanu.dev/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

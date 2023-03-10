@@ -9,7 +9,7 @@
     <managingEditor>me@ekunazanu.dev (Anchit Roy)</managingEditor>
     <webMaster>me@ekunazanu.dev (Anchit Roy)</webMaster>
     <copyright>Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
-    <lastBuildDate>Wed, 01 Mar 2023 12:48:27 +0530</lastBuildDate><atom:link href="https://ekunazanu.dev/categories/data-science/index.xml" rel="self" type="application/xml" />
+    <lastBuildDate>Wed, 01 Mar 2023 12:48:27 +0530</lastBuildDate><atom:link href="https://ekunazanu.dev/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The p-value</title>
       <link>https://ekunazanu.dev/blog/p-value/</link>
