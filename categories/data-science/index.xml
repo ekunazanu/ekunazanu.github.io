@@ -6,23 +6,26 @@
     <description>Recent content in Data Science on ekunazanu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-in</language>
-    <lastBuildDate>Wed, 01 Mar 2023 12:48:27 +0530</lastBuildDate><atom:link href="https://ekunazanu.dev/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>me@ekunazanu.dev (Anchit Roy)</managingEditor>
+    <webMaster>me@ekunazanu.dev (Anchit Roy)</webMaster>
+    <copyright>Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
+    <lastBuildDate>Wed, 01 Mar 2023 12:48:27 +0530</lastBuildDate><atom:link href="https://ekunazanu.dev/categories/data-science/index.xml" rel="self" type="application/xml" />
     <item>
       <title>The p-value</title>
       <link>https://ekunazanu.dev/blog/p-value/</link>
       <pubDate>Wed, 01 Mar 2023 12:48:27 +0530</pubDate>
-      
+      <author>me@ekunazanu.dev (Anchit Roy)</author>
       <guid>https://ekunazanu.dev/blog/p-value/</guid>
-      <description>Biases&amp;#35; </description>
+      <description>under 160 chars</description>
     </item>
     
     <item>
       <title>Getting Started With Julia</title>
       <link>https://ekunazanu.dev/blog/getting-started-with-julia/</link>
       <pubDate>Wed, 22 Feb 2023 04:04:41 +0530</pubDate>
-      
+      <author>me@ekunazanu.dev (Anchit Roy)</author>
       <guid>https://ekunazanu.dev/blog/getting-started-with-julia/</guid>
-      <description>I&amp;rsquo;ve always been a huge fan of maps, even more so if it manages to elegeantly present meaningful data in a very clean and uncomplicated way.</description>
+      <description>Using R to visualize map data</description>
     </item>
     
   </channel>
