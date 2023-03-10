@@ -8,11 +8,12 @@
     <meta name="author" content="Anchit Roy">
     <link rel="canonical" href="https://ekunazanu.dev/blog/testtemplate/">
     <link rel="icon" href="/icons/logo.16px.png">
-    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/root.css">
+<link rel="stylesheet" href="/css/base.css">
 <link rel="stylesheet" href="/css/banner.css">
-<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/css/blog.css">
 
-<link rel="stylesheet" href="/css/syntaxhighlight.css">
+<link rel="stylesheet" href="/css/code.css">
 
 <link rel="stylesheet" href="/css/math.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
@@ -62,7 +63,7 @@ This is an example open note
 
 <p>Paragraph with inline math $f(x) = x^{2}$ $y_t = \beta_0 + \theta_1 x_t + \epsilon_t$
 $$and\ block\ math, e\equiv \lim_{n\to\infty} \left( 1 + \frac{1}{n}\right)^n = 2.71828$$</p>
-<h2 id="header2">Header2<a href="#header2">↰</a></h2>
+<h2 id="header2">Header2<a href="#header2">&#35;</a></h2>
 <p>Paragraph with a <a href="linkaddress">link</a></p>
 <figure>
     <picture>
@@ -72,7 +73,7 @@ $$and\ block\ math, e\equiv \lim_{n\to\infty} \left( 1 + \frac{1}{n}\right)^n = 
     <figcaption>Some caption</figcaption>
 </figure>
 
-<h3 id="header3">Header3<a href="#header3">↰</a></h3>
+<h3 id="header3">Header3<a href="#header3">&#35;</a></h3>
 <p>Another paragraph with <em>emphasis</em> or <strong>strong emphasis</strong>. <code>monospaced string or inline code</code>. Underline is not supported and discouraged, to reduce confusion with links. <del>Strikethrough</del> is supported though.</p>
 <pre tabindex="0"><code>code block
 with just
@@ -258,7 +259,7 @@ that is very longgggggggggggggggggggggggggggggggggggggggggggggggg
     <figcaption>Table caption</figcaption>
 </figure>
 
-<h2 id="header2-1">Header2<a href="#header2-1">↰</a></h2>
+<h2 id="header2-1">Header2<a href="#header2-1">&#35;</a></h2>
 <p>Text with sub<sub>script</sub>
  and super<sup>script</sup>
  texts <sup><a href="link">Some journal</a></sup>. Another paragraph with a footnote <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. And another one <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. Also, a third one <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.</p>
@@ -314,11 +315,28 @@ that is very longgggggggggggggggggggggggggggggggggggggggggggggggg
 </article>
 </main>
 <nav>
-This article is about
+    <h3>More Stuff</span></h3>
+<section>
+    <article>
+        <time>2023-02-22</time>
+        <strong><a href="/blog/public-key-cryptography/">Public Key Cryptography</a></strong>
+    <p>Explaining primes and one-way functions using the RSA cryptosystem</p>
+    </article><article>
+        <time>2023-03-01</time>
+        <strong><a href="/blog/quaternions-vs-vectors/">Quaternions vs Vectors</a></strong>
+    <p>under 160 chars</p>
+    </article><article>
+        <time>2023-02-22</time>
+        <strong><a href="/blog/shors-algorithm-2/">Shor&#39;s Algorithm, Part II</a></strong>
+    <p>Explaining the weird world of quantum mechanics to break encryption</p>
+    </article>
+</section>
+This article was about
 <a href="/categories/mathematics/">Mathematics</a>
 <a href="/categories/computer-science/">Computer Science</a><br>
 Browse all <a href="/categories">categories</a>
 </nav>
+
 <footer>
     &copy; 2023 <a href="/about">Anchit Roy</a> &middot;
     <a rel="license noopener noreferrer nofollow" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 &#8599;</a>

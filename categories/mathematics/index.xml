@@ -32,7 +32,7 @@ https://www.3dgep.com/understanding-quaternions/&amp;#160;&amp;#x21a9;&amp;#xfe0
       <pubDate>Wed, 22 Feb 2023 03:22:39 +0530</pubDate>
       
       <guid>https://ekunazanu.dev/blog/shors-algorithm-1/</guid>
-      <description>Number Theory↰ </description>
+      <description>Number Theory&amp;#35; </description>
     </item>
     
     <item>
@@ -42,7 +42,7 @@ https://www.3dgep.com/understanding-quaternions/&amp;#160;&amp;#x21a9;&amp;#xfe0
       
       <guid>https://ekunazanu.dev/blog/splines/</guid>
       <description>While making the logo for this site
-Interpolation↰ </description>
+Interpolation&amp;#35; </description>
     </item>
     
     <item>
@@ -51,7 +51,7 @@ Interpolation↰ </description>
       <pubDate>Wed, 22 Feb 2023 03:22:19 +0530</pubDate>
       
       <guid>https://ekunazanu.dev/blog/public-key-cryptography/</guid>
-      <description>P vs NP↰ In computer science, any algorithm that solves a problem</description>
+      <description>P vs NP&amp;#35; In computer science, any algorithm that solves a problem</description>
     </item>
     
     <item>
@@ -61,7 +61,7 @@ Interpolation↰ </description>
       
       <guid>https://ekunazanu.dev/blog/fourier-transform/</guid>
       <description>Note This article assumes you have a basic understanding of the Euler&amp;rsquo;s Formula. Imagine you are given a function $y = f(x)$. Now what if I asked you to to represent this function as a sum of sine waves? Seems tricky, if not impossible at first. It might look daunting from afar, but the underlying principle behind Fourier transforms is actually relatively simple and really elegant.
-Time vs Frequency↰ A time domain vs a frequency domain graph of the same signal Use Cases↰ Sound Processing Euler&amp;rsquo;s Formula↰ The complex plane↰ for any number, $x^{yi}$ results in a comlex number $a + bi$.</description>
+Time vs Frequency&amp;#35; A time domain vs a frequency domain graph of the same signal Use Cases&amp;#35; Sound Processing Euler&amp;rsquo;s Formula&amp;#35; The complex plane&amp;#35; for any number, $x^{yi}$ results in a comlex number $a + bi$.</description>
     </item>
     
     <item>
@@ -80,8 +80,8 @@ Time vs Frequency↰ A time domain vs a frequency domain graph of the same signa
       
       <guid>https://ekunazanu.dev/blog/testtemplate/</guid>
       <description>Hidden note This is an example collapsed note Open note This is an example open note Paragraph with inline math $f(x) = x^{2}$ $y_t = \beta_0 + \theta_1 x_t + \epsilon_t$ $$and\ block\ math, e\equiv \lim_{n\to\infty} \left( 1 + \frac{1}{n}\right)^n = 2.71828$$
-Header2↰ Paragraph with a link
-Some caption Header3↰ Another paragraph with emphasis or strong emphasis. monospaced string or inline code. Underline is not supported and discouraged, to reduce confusion with links.</description>
+Header2&amp;#35; Paragraph with a link
+Some caption Header3&amp;#35; Another paragraph with emphasis or strong emphasis. monospaced string or inline code. Underline is not supported and discouraged, to reduce confusion with links.</description>
     </item>
     
   </channel>
