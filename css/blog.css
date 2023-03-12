@@ -157,6 +157,10 @@ details summary {
     nav section {
         flex-direction: column;
     }
+
+    nav section article {
+        margin: 0rem;
+    }
 }
 
 nav {
@@ -175,6 +179,10 @@ nav article {
     display: block;
     flex: 1;
     margin: 0rem 0.5rem;
+}
+
+nav div article {
+    margin: 0rem;
 }
 
 nav time {
