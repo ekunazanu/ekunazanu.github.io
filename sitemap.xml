@@ -5,6 +5,9 @@
     <loc>https://ekunazanu.dev/categories/</loc>
     <lastmod>2023-03-03T03:36:10+05:30</lastmod>
   </url><url>
+    <loc>https://ekunazanu.dev/tags/cryptography/</loc>
+    <lastmod>2023-03-03T03:36:10+05:30</lastmod>
+  </url><url>
     <loc>https://ekunazanu.dev/categories/mathematics/</loc>
     <lastmod>2023-03-03T03:36:10+05:30</lastmod>
   </url><url>
@@ -12,6 +15,9 @@
     <lastmod>2023-03-03T03:36:10+05:30</lastmod>
   </url><url>
     <loc>https://ekunazanu.dev/blog/shors-algorithm-2/</loc>
+    <lastmod>2023-03-03T03:36:10+05:30</lastmod>
+  </url><url>
+    <loc>https://ekunazanu.dev/tags/</loc>
     <lastmod>2023-03-03T03:36:10+05:30</lastmod>
   </url><url>
     <loc>https://ekunazanu.dev/blog/shors-algorithm-1/</loc>
@@ -22,6 +28,12 @@
   </url><url>
     <loc>https://ekunazanu.dev/blog/p-value/</loc>
     <lastmod>2023-03-01T12:48:27+05:30</lastmod>
+  </url><url>
+    <loc>https://ekunazanu.dev/tags/coordinate-geometry/</loc>
+    <lastmod>2023-03-01T00:36:22+05:30</lastmod>
+  </url><url>
+    <loc>https://ekunazanu.dev/tags/geometry/</loc>
+    <lastmod>2023-03-01T00:36:22+05:30</lastmod>
   </url><url>
     <loc>https://ekunazanu.dev/blog/quaternions-vs-vectors/</loc>
     <lastmod>2023-03-01T00:36:22+05:30</lastmod>
@@ -41,10 +53,13 @@
     <loc>https://ekunazanu.dev/blog/splines/</loc>
     <lastmod>2023-02-22T03:22:30+05:30</lastmod>
   </url><url>
-    <loc>https://ekunazanu.dev/blog/rsa/</loc>
+    <loc>https://ekunazanu.dev/blog/the-rsa-cryptosystem/</loc>
     <lastmod>2023-02-22T03:22:19+05:30</lastmod>
   </url><url>
     <loc>https://ekunazanu.dev/blog/fast-fourier-transform/</loc>
+    <lastmod>2023-02-22T03:22:02+05:30</lastmod>
+  </url><url>
+    <loc>https://ekunazanu.dev/tags/signal-processing/</loc>
     <lastmod>2023-02-22T03:22:02+05:30</lastmod>
   </url><url>
     <loc>https://ekunazanu.dev/blog/discrete-fourier-transform/</loc>
@@ -65,9 +80,10 @@
     <loc>https://ekunazanu.dev/blog/eulers-identity/</loc>
     <lastmod>2023-02-22T00:00:35+05:30</lastmod>
   </url><url>
-    <loc>https://ekunazanu.dev/blog/testtemplate/</loc>
+    <loc>https://ekunazanu.dev/tags/test/</loc>
     <lastmod>2020-02-22T00:01:05+05:30</lastmod>
   </url><url>
-    <loc>https://ekunazanu.dev/tags/</loc>
+    <loc>https://ekunazanu.dev/blog/testtemplate/</loc>
+    <lastmod>2020-02-22T00:01:05+05:30</lastmod>
   </url>
 </urlset>

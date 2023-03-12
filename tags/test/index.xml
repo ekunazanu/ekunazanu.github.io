@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test on ekunazanu</title>
+    <link>https://ekunazanu.dev/tags/test/</link>
+    <description>Recent content in Test on ekunazanu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-in</language>
+    <managingEditor>me@ekunazanu.dev (Anchit Roy)</managingEditor>
+    <webMaster>me@ekunazanu.dev (Anchit Roy)</webMaster>
+    <copyright>Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
+    <lastBuildDate>Sat, 22 Feb 2020 00:01:05 +0530</lastBuildDate><atom:link href="https://ekunazanu.dev/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://ekunazanu.dev/blog/testtemplate/</link>
+      <pubDate>Sat, 22 Feb 2020 00:01:05 +0530</pubDate>
+      <author>me@ekunazanu.dev (Anchit Roy)</author>
+      <guid>https://ekunazanu.dev/blog/testtemplate/</guid>
+      <description>This is a test page not meant for publication</description>
+    </item>
+    
+  </channel>
+</rss>

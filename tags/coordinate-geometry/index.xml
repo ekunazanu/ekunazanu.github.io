@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coordinate Geometry on ekunazanu</title>
+    <link>https://ekunazanu.dev/tags/coordinate-geometry/</link>
+    <description>Recent content in Coordinate Geometry on ekunazanu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-in</language>
+    <managingEditor>me@ekunazanu.dev (Anchit Roy)</managingEditor>
+    <webMaster>me@ekunazanu.dev (Anchit Roy)</webMaster>
+    <copyright>Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
+    <lastBuildDate>Wed, 01 Mar 2023 00:36:22 +0530</lastBuildDate><atom:link href="https://ekunazanu.dev/tags/coordinate-geometry/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quaternions vs Vectors</title>
+      <link>https://ekunazanu.dev/blog/quaternions-vs-vectors/</link>
+      <pubDate>Wed, 01 Mar 2023 00:36:22 +0530</pubDate>
+      <author>me@ekunazanu.dev (Anchit Roy)</author>
+      <guid>https://ekunazanu.dev/blog/quaternions-vs-vectors/</guid>
+      <description>under 160 chars</description>
+    </item>
+    
+    <item>
+      <title>Euler&#39;s Identity</title>
+      <link>https://ekunazanu.dev/blog/eulers-identity/</link>
+      <pubDate>Wed, 22 Feb 2023 00:00:35 +0530</pubDate>
+      <author>me@ekunazanu.dev (Anchit Roy)</author>
+      <guid>https://ekunazanu.dev/blog/eulers-identity/</guid>
+      <description>If you have ever enrolled in any of the STEM disciplines, chances are you would&amp;rsquo;ve come across Euler. Now there&amp;rsquo;s a lot of genius things he came up with, but one of the most well known (and also one of the most elegant) has to be the Euler&amp;rsquo;s Identity.</description>
+    </item>
+    
+  </channel>
+</rss>

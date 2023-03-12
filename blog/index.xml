@@ -83,11 +83,11 @@
     </item>
     
     <item>
-      <title>Public Key Cryptography</title>
-      <link>https://ekunazanu.dev/blog/rsa/</link>
+      <title>The RSA Cryptosystem</title>
+      <link>https://ekunazanu.dev/blog/the-rsa-cryptosystem/</link>
       <pubDate>Wed, 22 Feb 2023 03:22:19 +0530</pubDate>
       <author>me@ekunazanu.dev (Anchit Roy)</author>
-      <guid>https://ekunazanu.dev/blog/rsa/</guid>
+      <guid>https://ekunazanu.dev/blog/the-rsa-cryptosystem/</guid>
       <description>Explaining primes and one-way functions using the RSA cryptosystem</description>
     </item>
     

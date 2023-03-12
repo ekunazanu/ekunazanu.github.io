@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Signal Processing on ekunazanu</title>
+    <link>https://ekunazanu.dev/tags/signal-processing/</link>
+    <description>Recent content in Signal Processing on ekunazanu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-in</language>
+    <managingEditor>me@ekunazanu.dev (Anchit Roy)</managingEditor>
+    <webMaster>me@ekunazanu.dev (Anchit Roy)</webMaster>
+    <copyright>Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
+    <lastBuildDate>Wed, 22 Feb 2023 03:22:02 +0530</lastBuildDate><atom:link href="https://ekunazanu.dev/tags/signal-processing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fast Fourier Transform</title>
+      <link>https://ekunazanu.dev/blog/fast-fourier-transform/</link>
+      <pubDate>Wed, 22 Feb 2023 03:22:02 +0530</pubDate>
+      <author>me@ekunazanu.dev (Anchit Roy)</author>
+      <guid>https://ekunazanu.dev/blog/fast-fourier-transform/</guid>
+      <description>Explaining the importance of algorithmic efficiency using the Fast Fourier Transform</description>
+    </item>
+    
+    <item>
+      <title>Discrete Fourier Transform</title>
+      <link>https://ekunazanu.dev/blog/discrete-fourier-transform/</link>
+      <pubDate>Wed, 22 Feb 2023 03:21:23 +0530</pubDate>
+      <author>me@ekunazanu.dev (Anchit Roy)</author>
+      <guid>https://ekunazanu.dev/blog/discrete-fourier-transform/</guid>
+      <description>Explaining how the discrete version of the Fourier Transform works</description>
+    </item>
+    
+    <item>
+      <title>Fourier Transform</title>
+      <link>https://ekunazanu.dev/blog/fourier-transform/</link>
+      <pubDate>Wed, 22 Feb 2023 00:01:03 +0530</pubDate>
+      <author>me@ekunazanu.dev (Anchit Roy)</author>
+      <guid>https://ekunazanu.dev/blog/fourier-transform/</guid>
+      <description>Explaining how the Fourier Transform converts a time domain signals to a frequency domain signals</description>
+    </item>
+    
+    <item>
+      <title>Euler&#39;s Identity</title>
+      <link>https://ekunazanu.dev/blog/eulers-identity/</link>
+      <pubDate>Wed, 22 Feb 2023 00:00:35 +0530</pubDate>
+      <author>me@ekunazanu.dev (Anchit Roy)</author>
+      <guid>https://ekunazanu.dev/blog/eulers-identity/</guid>
+      <description>If you have ever enrolled in any of the STEM disciplines, chances are you would&amp;rsquo;ve come across Euler. Now there&amp;rsquo;s a lot of genius things he came up with, but one of the most well known (and also one of the most elegant) has to be the Euler&amp;rsquo;s Identity.</description>
+    </item>
+    
+  </channel>
+</rss>
