@@ -3,13 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ekunazanu.dev/categories/</loc>
-    <lastmod>2023-03-12T12:27:50+05:30</lastmod>
+    <lastmod>2023-03-03T03:36:10+05:30</lastmod>
   </url><url>
-    <loc>https://ekunazanu.dev/categories/computer-science/</loc>
-    <lastmod>2023-03-12T12:27:50+05:30</lastmod>
+    <loc>https://ekunazanu.dev/categories/mathematics/</loc>
+    <lastmod>2023-03-03T03:36:10+05:30</lastmod>
   </url><url>
-    <loc>https://ekunazanu.dev/blog/probabilisitc-data-structures/</loc>
-    <lastmod>2023-03-12T12:27:50+05:30</lastmod>
+    <loc>https://ekunazanu.dev/categories/physics/</loc>
+    <lastmod>2023-03-03T03:36:10+05:30</lastmod>
+  </url><url>
+    <loc>https://ekunazanu.dev/blog/shors-algorithm-2/</loc>
+    <lastmod>2023-03-03T03:36:10+05:30</lastmod>
+  </url><url>
+    <loc>https://ekunazanu.dev/blog/shors-algorithm-1/</loc>
+    <lastmod>2023-03-03T03:22:39+05:30</lastmod>
   </url><url>
     <loc>https://ekunazanu.dev/categories/data-science/</loc>
     <lastmod>2023-03-01T12:48:27+05:30</lastmod>
@@ -17,29 +23,26 @@
     <loc>https://ekunazanu.dev/blog/p-value/</loc>
     <lastmod>2023-03-01T12:48:27+05:30</lastmod>
   </url><url>
-    <loc>https://ekunazanu.dev/categories/mathematics/</loc>
-    <lastmod>2023-03-01T00:36:22+05:30</lastmod>
-  </url><url>
     <loc>https://ekunazanu.dev/blog/quaternions-vs-vectors/</loc>
     <lastmod>2023-03-01T00:36:22+05:30</lastmod>
+  </url><url>
+    <loc>https://ekunazanu.dev/categories/computer-science/</loc>
+    <lastmod>2023-02-27T03:22:19+05:30</lastmod>
+  </url><url>
+    <loc>https://ekunazanu.dev/blog/rsa/</loc>
+    <lastmod>2023-02-27T03:22:19+05:30</lastmod>
+  </url><url>
+    <loc>https://ekunazanu.dev/blog/probabilisitc-data-structures/</loc>
+    <lastmod>2023-02-25T15:27:50+05:30</lastmod>
+  </url><url>
+    <loc>https://ekunazanu.dev/blog/hashing/</loc>
+    <lastmod>2023-02-25T14:56:58+05:30</lastmod>
   </url><url>
     <loc>https://ekunazanu.dev/blog/getting-started-with-julia/</loc>
     <lastmod>2023-02-22T04:04:41+05:30</lastmod>
   </url><url>
-    <loc>https://ekunazanu.dev/categories/physics/</loc>
-    <lastmod>2023-02-22T03:36:10+05:30</lastmod>
-  </url><url>
-    <loc>https://ekunazanu.dev/blog/shors-algorithm-2/</loc>
-    <lastmod>2023-02-22T03:36:10+05:30</lastmod>
-  </url><url>
-    <loc>https://ekunazanu.dev/blog/shors-algorithm-1/</loc>
-    <lastmod>2023-02-22T03:22:39+05:30</lastmod>
-  </url><url>
     <loc>https://ekunazanu.dev/blog/splines/</loc>
     <lastmod>2023-02-22T03:22:30+05:30</lastmod>
-  </url><url>
-    <loc>https://ekunazanu.dev/blog/public-key-cryptography/</loc>
-    <lastmod>2023-02-22T03:22:19+05:30</lastmod>
   </url><url>
     <loc>https://ekunazanu.dev/blog/fast-fourier-transform/</loc>
     <lastmod>2023-02-22T03:22:02+05:30</lastmod>
