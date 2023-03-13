@@ -11,6 +11,15 @@
     <copyright>Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
     <lastBuildDate>Wed, 22 Feb 2023 00:10:23 +0530</lastBuildDate><atom:link href="https://ekunazanu.dev/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>The Advanced Encryption Standard</title>
+      <link>https://ekunazanu.dev/blog/aes/</link>
+      <pubDate>Mon, 13 Mar 2023 12:44:02 +0530</pubDate>
+      <author>me@ekunazanu.dev (Anchit Roy)</author>
+      <guid>https://ekunazanu.dev/blog/aes/</guid>
+      <description>under 160 chars</description>
+    </item>
+    
+    <item>
       <title>Shor&#39;s Algorithm, Part II</title>
       <link>https://ekunazanu.dev/blog/shors-algorithm-2/</link>
       <pubDate>Fri, 03 Mar 2023 03:36:10 +0530</pubDate>
@@ -84,10 +93,10 @@
     
     <item>
       <title>The RSA Cryptosystem</title>
-      <link>https://ekunazanu.dev/blog/the-rsa-cryptosystem/</link>
+      <link>https://ekunazanu.dev/blog/rsa/</link>
       <pubDate>Wed, 22 Feb 2023 03:22:19 +0530</pubDate>
       <author>me@ekunazanu.dev (Anchit Roy)</author>
-      <guid>https://ekunazanu.dev/blog/the-rsa-cryptosystem/</guid>
+      <guid>https://ekunazanu.dev/blog/rsa/</guid>
       <description>Explaining primes and one-way functions using the RSA cryptosystem</description>
     </item>
     
@@ -124,7 +133,7 @@
       <pubDate>Wed, 22 Feb 2023 00:00:35 +0530</pubDate>
       <author>me@ekunazanu.dev (Anchit Roy)</author>
       <guid>https://ekunazanu.dev/blog/eulers-identity/</guid>
-      <description>If you have ever enrolled in any of the STEM disciplines, chances are you would&amp;rsquo;ve come across Euler. Now there&amp;rsquo;s a lot of genius things he came up with, but one of the most well known (and also one of the most elegant) has to be the Euler&amp;rsquo;s Identity.</description>
+      <description>If you have ever enrolled in any of the STEM disciplines, chances are you would&amp;rsquo;ve come across Euler. Now there&amp;rsquo;s a lot of genius things he came up with, but one of the most well known (and also one of the most elegant) has to be the Euler&amp;rsquo;s Identity</description>
     </item>
     
     <item>
