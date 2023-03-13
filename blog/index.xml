@@ -11,15 +11,6 @@
     <copyright>Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
     <lastBuildDate>Wed, 22 Feb 2023 00:10:23 +0530</lastBuildDate><atom:link href="https://ekunazanu.dev/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Advanced Encryption Standard</title>
-      <link>https://ekunazanu.dev/blog/aes/</link>
-      <pubDate>Mon, 13 Mar 2023 12:44:02 +0530</pubDate>
-      <author>me@ekunazanu.dev (Anchit Roy)</author>
-      <guid>https://ekunazanu.dev/blog/aes/</guid>
-      <description>under 160 chars</description>
-    </item>
-    
-    <item>
       <title>Shor&#39;s Algorithm, Part II</title>
       <link>https://ekunazanu.dev/blog/shors-algorithm-2/</link>
       <pubDate>Fri, 03 Mar 2023 03:36:10 +0530</pubDate>
@@ -92,6 +83,15 @@
     </item>
     
     <item>
+      <title>The Advanced Encryption Standard</title>
+      <link>https://ekunazanu.dev/blog/aes/</link>
+      <pubDate>Wed, 22 Feb 2023 03:22:22 +0530</pubDate>
+      <author>me@ekunazanu.dev (Anchit Roy)</author>
+      <guid>https://ekunazanu.dev/blog/aes/</guid>
+      <description>under 160 chars</description>
+    </item>
+    
+    <item>
       <title>The RSA Cryptosystem</title>
       <link>https://ekunazanu.dev/blog/rsa/</link>
       <pubDate>Wed, 22 Feb 2023 03:22:19 +0530</pubDate>
@@ -101,7 +101,7 @@
     </item>
     
     <item>
-      <title>Fast Fourier Transform</title>
+      <title>The Fast Fourier Transform</title>
       <link>https://ekunazanu.dev/blog/fast-fourier-transform/</link>
       <pubDate>Wed, 22 Feb 2023 03:22:02 +0530</pubDate>
       <author>me@ekunazanu.dev (Anchit Roy)</author>
@@ -110,7 +110,7 @@
     </item>
     
     <item>
-      <title>Discrete Fourier Transform</title>
+      <title>The Discrete Fourier Transform</title>
       <link>https://ekunazanu.dev/blog/discrete-fourier-transform/</link>
       <pubDate>Wed, 22 Feb 2023 03:21:23 +0530</pubDate>
       <author>me@ekunazanu.dev (Anchit Roy)</author>
@@ -119,7 +119,7 @@
     </item>
     
     <item>
-      <title>Fourier Transform</title>
+      <title>The Fourier Transform</title>
       <link>https://ekunazanu.dev/blog/fourier-transform/</link>
       <pubDate>Wed, 22 Feb 2023 00:01:03 +0530</pubDate>
       <author>me@ekunazanu.dev (Anchit Roy)</author>
@@ -128,7 +128,7 @@
     </item>
     
     <item>
-      <title>Euler&#39;s Identity</title>
+      <title>The Euler&#39;s Identity</title>
       <link>https://ekunazanu.dev/blog/eulers-identity/</link>
       <pubDate>Wed, 22 Feb 2023 00:00:35 +0530</pubDate>
       <author>me@ekunazanu.dev (Anchit Roy)</author>
